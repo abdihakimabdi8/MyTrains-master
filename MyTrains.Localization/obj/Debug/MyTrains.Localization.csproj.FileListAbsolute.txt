@@ -1,0 +1,11 @@
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\bin\Debug\MyTrains.Localization.dll
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\bin\Debug\MyTrains.Localization.pdb
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\bin\Debug\nl-BE\MyTrains.Localization.resources.dll
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\MyTrains.Localization.csprojResolveAssemblyReference.cache
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\MyTrains.Localization.Strings.resources
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\MyTrains.Localization.Strings.nl-BE.resources
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\MyTrains.Localization.csproj.GenerateResource.Cache
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\MyTrains.Localization.csproj.CoreCompileInputs.cache
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\nl-BE\MyTrains.Localization.resources.dll
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\MyTrains.Localization.dll
+C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Localization\obj\Debug\MyTrains.Localization.pdb

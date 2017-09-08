@@ -1,0 +1,2 @@
+android.app.Application
+MyTrains.Droid.MyTrains.Droid
