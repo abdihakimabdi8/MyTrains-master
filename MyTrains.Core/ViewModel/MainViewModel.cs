@@ -8,11 +8,11 @@ namespace MyTrains.Core.ViewModel
     public class MainViewModel : MvxViewModel, IMainViewModel
     {
 
-        private readonly Lazy<SearchRemittanceViewModel> _searchRemittanceViewModel;
+        private readonly Lazy<SendRemittanceViewModel> _sendRemittanceViewModel;
         private readonly Lazy<SavedRemittancesViewModel> _savedRemittancesViewModel;
         private readonly Lazy<SettingsViewModel> _settingsViewModel;
 
-        public SearchRemittanceViewModel SearchRemittanceViewModel => _searchRemittanceViewModel.Value;
+        public SendRemittanceViewModel SendRemittanceViewModel => _sendRemittanceViewModel.Value;
 
         public SavedRemittancesViewModel SavedRemittancesViewModel => _savedRemittancesViewModel.Value;
 
@@ -20,7 +20,7 @@ namespace MyTrains.Core.ViewModel
 
         public MainViewModel()
         {
-            _searchRemittanceViewModel = new Lazy<SearchRemittanceViewModel>(Mvx.IocConstruct<SearchRemittanceViewModel>);
+            _sendRemittanceViewModel = new Lazy<SendRemittanceViewModel>(Mvx.IocConstruct<SendRemittanceViewModel>);
             _savedRemittancesViewModel = new Lazy<SavedRemittancesViewModel>(Mvx.IocConstruct<SavedRemittancesViewModel>);
             _settingsViewModel = new Lazy<SettingsViewModel>(Mvx.IocConstruct<SettingsViewModel>);
         }
@@ -30,9 +30,9 @@ namespace MyTrains.Core.ViewModel
             ShowViewModel<MenuViewModel>();
         }
 
-        public void ShowSearchRemittances()
+        public void ShowSendRemittances()
         {
-            ShowViewModel<SearchRemittanceViewModel>();
+            ShowViewModel<SendRemittanceViewModel>();
         }
     }
 }

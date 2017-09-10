@@ -24,23 +24,36 @@ namespace MyTrains.Core.ViewModel
         {
             MenuItems.Add(new MenuItem
             {
-                Title = "Search Remittances",
-                ViewModelType = typeof(SearchRemittanceViewModel),
-                Option = MenuOption.SearchRemittance,
+                Title = "Send Money",
+                ViewModelType = typeof(SendRemittanceViewModel),
+                Option = MenuOption.SendRemittance,
                 IsSelected = true
             });
 
             MenuItems.Add(new MenuItem
             {
-                Title = "My Saved Journeys",
+                Title = "Transactions",
                 ViewModelType = typeof(SavedRemittancesViewModel),
                 Option = MenuOption.SavedRemittances,
                 IsSelected = false
             });
-
+            MenuItems.Add(new MenuItem
+            {
+                Title = "Beneficiaries",
+                ViewModelType = typeof(SavedRemittancesViewModel),
+                Option = MenuOption.SavedRemittances,
+                IsSelected = false
+            });
             MenuItems.Add(new MenuItem
             {
                 Title = "Settings",
+                ViewModelType = typeof(SettingsViewModel),
+                Option = MenuOption.Settings,
+                IsSelected = false
+            });
+            MenuItems.Add(new MenuItem
+            {
+                Title = "Support",
                 ViewModelType = typeof(SettingsViewModel),
                 Option = MenuOption.Settings,
                 IsSelected = false

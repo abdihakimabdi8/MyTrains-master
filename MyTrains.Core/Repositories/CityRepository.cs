@@ -13,44 +13,44 @@ namespace MyTrains.Core.Repositories
             new City
             {
                 CityId = 1,
-                CityName = "London"
+                CityName = "Jig-Jiga"
             },
             new City
             {
                 CityId = 2,
-                CityName = "Manchester"
+                CityName = "Hargeisa"
             },
             new City
             {
                 CityId = 3,
-                CityName = "Liverpool"
+                CityName = "Wajaale"
             },
              new City
             {
                 CityId = 4,
-                CityName = "Cambridge"
+                CityName = "Addis Ababa"
             },
 
              new City
             {
                 CityId = 5,
-                CityName = "Glasgow"
+                CityName = "Mogadishu"
             },
 
              new City
             {
                 CityId = 6,
-                CityName = "Aberdeen"
+                CityName = "Bossaso"
             },
              new City
              {
                 CityId = 7,
-                CityName = "Bath"
+                CityName = "Nairobi"
             },
              new City
              {
                 CityId = 8,
-                CityName = "Oxford"
+                CityName = "Dhagahbur"
             }
         };
 

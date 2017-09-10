@@ -11,7 +11,7 @@ namespace MyTrains.Core.Contracts.Services
     {
         Task<IEnumerable<SavedRemittance>> GetSavedRemittanceForUser(int userId);
 
-        Task AddSavedRemittance(int userId, int remittanceId, int beneficiaryId);
+        Task AddSavedRemittance(int userId, int remittanceId, int beneficiaryId, int countryId, int cityId, int serviceId);
     }
 }
 

@@ -13,11 +13,18 @@ namespace MyTrains.Core.ViewModel
         private readonly IRemittanceDataService _remittanceDataService;
         private readonly ISavedRemittanceDataService _savedRemittanceDataService;
         private readonly IDialogService _dialogService;
+        private readonly IBeneficiaryDataService _beneficiaryDataService;
+        private readonly ICityDataService _cityDataService;
+        private readonly ICountryDataService _countryDataService;
+        private readonly IServiceDataService _serviceDataService;
         private readonly IUserDataService _userDataService;
         private Remittance _selectedRemittance;
         private int _remittanceId;
         private int _beneficiaryId;
-
+        private int _cityId;
+        private int _countryId;
+        private int _serviceId;
+        
         public MvxCommand AddToSavedRemittancesCommand
         {
             get
@@ -25,7 +32,7 @@ namespace MyTrains.Core.ViewModel
                 return new MvxCommand(async () =>
                 {
                     await _savedRemittanceDataService.AddSavedRemittance
-                    (_userDataService.GetActiveUser().UserId, SelectedRemittance.RemittanceId, BeneficiaryId);
+                    (_userDataService.GetActiveUser().UserId, SelectedRemittance.RemittanceId, SelectedRemittance.BeneficiaryId, SelectedRemittance.CountryId, SelectedRemittance.CityId, SelectedRemittance.ServiceId);
 
                     //Hardcoded text, better with resx translations
                     //await
@@ -62,6 +69,33 @@ namespace MyTrains.Core.ViewModel
                 RaisePropertyChanged(() => BeneficiaryId);
             }
         }
+        public int CityId
+        {
+            get { return _cityId; }
+            set
+            {
+                _cityId = value;
+                RaisePropertyChanged(() => CityId);
+            }
+        }
+        public int ServiceId
+        {
+            get { return _serviceId; }
+            set
+            {
+                _serviceId = value;
+                RaisePropertyChanged(() => ServiceId);
+            }
+        }
+        public int CountryId
+        {
+            get { return _countryId; }
+            set
+            {
+                _countryId = value;
+                RaisePropertyChanged(() => CountryId);
+            }
+        }
 
         public RemittanceDetailViewModel(IMvxMessenger messenger,
             IRemittanceDataService remittanceDataService,
@@ -75,9 +109,9 @@ namespace MyTrains.Core.ViewModel
             _userDataService = userDataService;
         }
 
-        public void Init(int journeyId)
+        public void Init(int remittanceId)
         {
-            _remittanceId = journeyId;
+            _remittanceId = remittanceId;
         }
 
         public override async void Start()

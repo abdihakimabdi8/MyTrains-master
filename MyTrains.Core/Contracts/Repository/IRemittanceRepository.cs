@@ -9,7 +9,7 @@ namespace MyTrains.Core.Contracts.Repository
 {
     public interface IRemittanceRepository
     {
-        Task<IEnumerable<Remittance>> SearchRemittance(int fromCity, int toCity, DateTime remittanceDate, DateTime departureTime);
+        Task<IEnumerable<Remittance>> SendRemittance(int beneficiary, int country, int city, int service, DateTime remittanceDate, DateTime departureTime);
 
         Task<Remittance> GetRemittanceDetails(int remittanceId);
         //Task SearchRemittance(int fromCity, int toCity, DateTime remittanceDate, DateTime departureTime);

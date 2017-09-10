@@ -105,9 +105,13 @@
     <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
     <Compile Include="Mocks\RepositoryMocks.cs" />
     <Compile Include="Mocks\ServiceMocks.cs" />
+    <Compile Include="Tests\Repository\BeneficiaryRepositoryTests.cs" />
     <Compile Include="Tests\Repository\CityRepositoryTests.cs" />
+    <Compile Include="Tests\Repository\CountryRepositoryTests.cs" />
+    <Compile Include="Tests\Services\BeneficiaryDataServiceTests.cs" />
     <Compile Include="Tests\Services\CityDataServiceTests.cs" />
-    <Compile Include="Tests\ViewModels\SearchRemittanceViewModelTests.cs" />
+    <Compile Include="Tests\Services\CountryDataServiceTests.cs" />
+    <Compile Include="Tests\ViewModels\SendRemittanceViewModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

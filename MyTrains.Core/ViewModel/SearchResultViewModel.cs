@@ -12,14 +12,29 @@ using MyTrains.Core.Model.App;
 
 namespace MyTrains.Core.ViewModel
 {
-    public class SearchResultViewModel : BaseViewModel, ISearchResultViewModel
+    public class SearchResultViewModel : BaseViewModel, ISendResultViewModel
     {
         private readonly IRemittanceDataService _remittanceDataService;
-        private int _fromCityId;
-        private int _toCityId;
+        private readonly ICityDataService _cityDataService;
+        private readonly ICountryDataService _countryDataService;
+        private readonly IBeneficiaryDataService _beneficiaryDataService;
+        private readonly IServiceDataService _serviceDataService;
+
+
+        private int _cityId;
+        private int _beneficiaryId;
+        private int _countryId;
+        private int _serviceId;
+
         private DateTime _remittanceDate;
         private string _departureTime;
+
         private ObservableCollection<Remittance> _remittances;
+        private ObservableCollection<City> _cities;
+        private ObservableCollection<Beneficiary> _beneficiaries;
+        private ObservableCollection<Country> _countries;
+        private ObservableCollection<Service> _services;
+
 
         public ObservableCollection<Remittance> Remittances
         {
@@ -30,8 +45,44 @@ namespace MyTrains.Core.ViewModel
                 RaisePropertyChanged(() => Remittances);
             }
         }
+        public ObservableCollection<Beneficiary> Beneficiaries
+        {
+            get { return _beneficiaries; }
+            set
+            {
+                _beneficiaries = value;
+                RaisePropertyChanged(() => Beneficiaries);
+            }
+        }
+        public ObservableCollection<Country> Countries
+        {
+            get { return _countries; }
+            set
+            {
+                _countries = value;
+                RaisePropertyChanged(() => Countries);
+            }
+        }
+        public ObservableCollection<City> Cities
+        {
+            get { return _cities; }
+            set
+            {
+                _cities = value;
+                RaisePropertyChanged(() => Cities);
+            }
+        }
+        public ObservableCollection<Service> Services
+        {
+            get { return _services; }
+            set
+            {
+                _services = value;
+                RaisePropertyChanged(() => Services);
+            }
+        }
 
-        public MvxCommand<Remittance> ShowJourneyDetailsCommand
+        public MvxCommand<Remittance> ShowRemittanceDetailsCommand
         {
             get
             {
@@ -47,9 +98,9 @@ namespace MyTrains.Core.ViewModel
         {
             get
             {
-                return new MvxCommand(async () =>
+                return new MvxCommand(async () =>  
                 {
-                    Remittances = (await _remittanceDataService.SearchRemittance(_fromCityId, _toCityId, _remittanceDate, DateTime.Parse(_departureTime))).ToObservableCollection();
+                    Remittances = (await _remittanceDataService.SendRemittance(_cityId, _countryId, _beneficiaryId, _serviceId, _remittanceDate, DateTime.Parse(_departureTime))).ToObservableCollection();
                 });
             }
         }
@@ -77,15 +128,17 @@ namespace MyTrains.Core.ViewModel
 
         protected override async Task InitializeAsync()
         {
-            Remittances = (await _remittanceDataService.SearchRemittance(_fromCityId, _toCityId, _remittanceDate, DateTime.Parse(_departureTime))).ToObservableCollection();
+            Remittances = (await _remittanceDataService.SendRemittance(_cityId, _beneficiaryId, _countryId, _serviceId, _remittanceDate, DateTime.Parse(_departureTime))).ToObservableCollection();
         }
 
 
 
-        public void Init(SearchParameters parameters)
+        public void Init(SendParameters parameters)
         {
-            _fromCityId = parameters.FromCityId;
-            _toCityId = parameters.ToCityId;
+            _cityId = parameters.CityId;
+            _beneficiaryId = parameters.BeneficiaryId;
+            _countryId = parameters.CountryId;
+            _serviceId = parameters.ServiceId;
             _remittanceDate = parameters.RemittanceDate;
             _departureTime = parameters.DepartureTime;
         }

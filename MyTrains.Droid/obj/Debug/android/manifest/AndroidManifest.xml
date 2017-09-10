@@ -3,7 +3,6 @@
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <application android:label="MyTrains" android:theme="@style/AppTheme" android:icon="@drawable/app_icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">

@@ -37,3 +37,6 @@ C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Core.UnitTests\bin\Debug\Newtons
 C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Core.UnitTests\bin\Debug\nl-BE\MyTrains.Localization.resources.dll
 C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Core.UnitTests\obj\Debug\MyTrains.Core.UnitTests.dll
 C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Core.UnitTests\obj\Debug\MyTrains.Core.UnitTests.pdb
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core.UnitTests\obj\Debug\MyTrains.Core.UnitTests.csproj.App.config
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core.UnitTests\obj\Debug\MyTrains.Core.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core.UnitTests\obj\Debug\MyTrains.Core.UnitTests.csprojResolveAssemblyReference.cache

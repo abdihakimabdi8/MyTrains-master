@@ -59,7 +59,7 @@ namespace MyTrains.Droid.Activities
             _drawerLayout.SetDrawerListener(_drawerToggle);
 
             ViewModel.ShowMenu();
-            ViewModel.ShowSearchRemittances();
+            ViewModel.ShowSendRemittances();
         }
 
         private void _drawerToggle_DrawerOpened(object sender, ActionBarDrawerEventArgs e)

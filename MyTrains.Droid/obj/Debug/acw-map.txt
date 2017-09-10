@@ -14,10 +14,10 @@ MyTrains.Droid.Views.SavedRemittancesFragment, MyTrains.Droid;mytrains.droid.vie
 MyTrains.Droid.Views.SavedRemittancesFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SavedRemittancesFragment
 MyTrains.Droid.Views.SavedRemittancesFragment;mytrains.droid.views.SavedRemittancesFragment
 mytrains.droid.views.SavedRemittancesFragment;mytrains.droid.views.SavedRemittancesFragment
-MyTrains.Droid.Views.SearchRemittanceFragment, MyTrains.Droid;mytrains.droid.views.SearchRemittanceFragment
-MyTrains.Droid.Views.SearchRemittanceFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SearchRemittanceFragment
-MyTrains.Droid.Views.SearchRemittanceFragment;mytrains.droid.views.SearchRemittanceFragment
-mytrains.droid.views.SearchRemittanceFragment;mytrains.droid.views.SearchRemittanceFragment
+MyTrains.Droid.Views.SendRemittanceFragment, MyTrains.Droid;mytrains.droid.views.SendRemittanceFragment
+MyTrains.Droid.Views.SendRemittanceFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SendRemittanceFragment
+MyTrains.Droid.Views.SendRemittanceFragment;mytrains.droid.views.SendRemittanceFragment
+mytrains.droid.views.SendRemittanceFragment;mytrains.droid.views.SendRemittanceFragment
 MyTrains.Droid.Views.SearchResultsFragment, MyTrains.Droid;mytrains.droid.views.SearchResultsFragment
 MyTrains.Droid.Views.SearchResultsFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SearchResultsFragment
 MyTrains.Droid.Views.SearchResultsFragment;mytrains.droid.views.SearchResultsFragment

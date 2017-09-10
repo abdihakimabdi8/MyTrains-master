@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTrains.Core", "MyTrains.Core\MyTrains.Core.csproj", "{A429B66B-B938-4BEC-9254-C27BBA173D90}"
 EndProject
@@ -153,7 +153,6 @@ Global
 		{1442781B-1E63-418C-A2D9-CE28CD91ADEA}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{1442781B-1E63-418C-A2D9-CE28CD91ADEA}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
 		{1442781B-1E63-418C-A2D9-CE28CD91ADEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1442781B-1E63-418C-A2D9-CE28CD91ADEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1442781B-1E63-418C-A2D9-CE28CD91ADEA}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{1442781B-1E63-418C-A2D9-CE28CD91ADEA}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{1442781B-1E63-418C-A2D9-CE28CD91ADEA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
@@ -170,5 +169,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1442781B-1E63-418C-A2D9-CE28CD91ADEA} = {F2831686-17CE-4424-A5BF-886082A9C696}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC70CC0D-C3D6-45BA-B499-09FB3577F506}
 	EndGlobalSection
 EndGlobal

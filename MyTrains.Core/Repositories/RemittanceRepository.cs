@@ -15,8 +15,10 @@ namespace MyTrains.Core.Repositories
             new Remittance
             {
                 RemittanceId = 1,
-                FromCityId = 1,
-                ToCityId  = 2,
+                CityId = 1,
+                BeneficiaryId  = 2,
+                CountryId = 2,
+                ServiceId = 1,
                 DepartureTime = DateTime.Now.AddHours(1),
                 ArrivalTime = DateTime.Now.AddHours(2),
                 RemittanceDate = DateTime.Now,
@@ -26,8 +28,10 @@ namespace MyTrains.Core.Repositories
             new Remittance
             {
                 RemittanceId = 2,
-                FromCityId = 2,
-                ToCityId = 1,
+                CityId = 2,
+                BeneficiaryId = 1,
+                CountryId = 1,
+                ServiceId = 1,
                 DepartureTime = DateTime.Now.AddHours(2),
                 ArrivalTime = DateTime.Now.AddHours(3),
                 RemittanceDate = DateTime.Now,
@@ -37,8 +41,10 @@ namespace MyTrains.Core.Repositories
             new Remittance
             {
                 RemittanceId = 3,
-                FromCityId = 1,
-                ToCityId = 2,
+                CityId = 1,
+                BeneficiaryId = 2,
+                CountryId = 2,
+                ServiceId = 1,
                 DepartureTime = DateTime.Now.AddHours(4),
                 ArrivalTime = DateTime.Now.AddHours(5),
                 RemittanceDate = DateTime.Now,
@@ -49,8 +55,10 @@ namespace MyTrains.Core.Repositories
             new Remittance
             {
                 RemittanceId = 4,
-                FromCityId = 1,
-                ToCityId = 2,
+                CityId = 1,
+                BeneficiaryId = 2,
+                CountryId = 3,
+                ServiceId = 1,
                 DepartureTime = DateTime.Now.AddHours(6),
                 ArrivalTime = DateTime.Now.AddHours(7),
                 RemittanceDate = DateTime.Now,
@@ -59,9 +67,9 @@ namespace MyTrains.Core.Repositories
             }
         };
 
-        public async Task<IEnumerable<Remittance>> SearchRemittance(int fromCity, int toCity, DateTime remittanceDate, DateTime departureTime)
+        public async Task<IEnumerable<Remittance>> SendRemittance(int beneficiary, int country, int city, int service, DateTime remittanceDate, DateTime departureTime)
         {
-            return await Task.FromResult(AllRemittances.Where(c => c.FromCityId == fromCity && c.ToCityId == toCity)); //For demo purposes, the search doesn't mind the date and hour
+            return await Task.FromResult(AllRemittances.Where(c => c.BeneficiaryId == beneficiary && c.CountryId == country)); //For demo purposes, the search doesn't mind the date and hour
         }
 
         public async Task<Remittance> GetRemittanceDetails(int remittanceId)

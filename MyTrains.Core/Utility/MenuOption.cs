@@ -2,7 +2,7 @@
 {
     public enum MenuOption
     {
-        SearchRemittance = 0,
+        SendRemittance = 0,
         SavedRemittances,
         Settings
     }
