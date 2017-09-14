@@ -170,49 +170,57 @@ namespace MyTrains.Core.ViewModel
         }
 
         public SendRemittanceViewModel(IMvxMessenger messenger,
+            IBeneficiaryDataService beneficiaryDataService,
+            ICountryDataService countryDatasService,
+            IServiceDataService serviceDatasService,
+
             ICityDataService cityDataService,
             IConnectionService connectionService,
             IDialogService dialogService) : base(messenger)
         {
+            _beneficiaryDataService = beneficiaryDataService;
+            _countryDataService = countryDatasService;
+            _serviceDataService = serviceDatasService;
+
             _cityDataService = cityDataService;
             _connectionService = connectionService;
             _dialogService = dialogService;
 
             SelectedDate = DateTime.Today;
         }
-        public SendRemittanceViewModel(IMvxMessenger messenger,
-            IBeneficiaryDataService beneficiaryDataService,
-            IConnectionService connectionService,
-            IDialogService dialogService) : base(messenger)
-        {
-            _beneficiaryDataService = beneficiaryDataService;
-            _connectionService = connectionService;
-            _dialogService = dialogService;
+        //public SendRemittanceViewModel(IMvxMessenger messenger,
+        //    IBeneficiaryDataService beneficiaryDataService,
+        //    IConnectionService connectionService,
+        //    IDialogService dialogService) : base(messenger)
+        //{
+        //    _beneficiaryDataService = beneficiaryDataService;
+        //    _connectionService = connectionService;
+        //    _dialogService = dialogService;
 
-            SelectedDate = DateTime.Today;
-        }
-        public SendRemittanceViewModel(IMvxMessenger messenger,
-            ICountryDataService countryDatasService,
-            IConnectionService connectionService,
-            IDialogService dialogService) : base(messenger)
-        {
-            _countryDataService = countryDatasService;
-            _connectionService = connectionService;
-            _dialogService = dialogService;
+        //    SelectedDate = DateTime.Today;
+        //}
+        //public SendRemittanceViewModel(IMvxMessenger messenger,
+        //    ICountryDataService countryDatasService,
+        //    IConnectionService connectionService,
+        //    IDialogService dialogService) : base(messenger)
+        //{
+        //    _countryDataService = countryDatasService;
+        //    _connectionService = connectionService;
+        //    _dialogService = dialogService;
 
-            SelectedDate = DateTime.Today;
-        }
-        public SendRemittanceViewModel(IMvxMessenger messenger,
-           IServiceDataService serviceDatasService,
-           IConnectionService connectionService,
-           IDialogService dialogService) : base(messenger)
-        {
-            _serviceDataService = serviceDatasService;
-            _connectionService = connectionService;
-            _dialogService = dialogService;
+        //    SelectedDate = DateTime.Today;
+        //}
+        //public SendRemittanceViewModel(IMvxMessenger messenger,
+        //   IServiceDataService serviceDatasService,
+        //   IConnectionService connectionService,
+        //   IDialogService dialogService) : base(messenger)
+        //{
+        //    _serviceDataService = serviceDatasService;
+        //    _connectionService = connectionService;
+        //    _dialogService = dialogService;
 
-            SelectedDate = DateTime.Today;
-        }
+        //    SelectedDate = DateTime.Today;
+        //}
         public override async void Start()
         {
             base.Start();
@@ -228,6 +236,9 @@ namespace MyTrains.Core.ViewModel
             if (_connectionService.CheckOnline())
             {
                 await LoadCities();
+                await LoadBeneficiaries();
+                await LoadCountries();
+                await LoadServices();
 
                 SelectedBeneficiary = Beneficiaries[0];
                 SelectedCountry = Countries[0];

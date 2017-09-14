@@ -14,5 +14,5 @@
         android:layout_height="match_parent"
         android:layout_gravity="left|start"
         local:MvxItemTemplate="@layout/item_saved_remittance"
-        local:MvxBind="ItemsSource SavedJourneys" />
+        local:MvxBind="ItemsSource SavedRemittances" />
 </LinearLayout>

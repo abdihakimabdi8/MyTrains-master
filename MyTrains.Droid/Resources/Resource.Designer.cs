@@ -2114,17 +2114,14 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06009f
 			public const int BeneficiariesSpinner = 2131099807;
 			
-			// aapt resource value: 0x7f0600a1
-			public const int CitiesSpinner = 2131099809;
+			// aapt resource value: 0x7f0600a0
+			public const int CitiesSpinner = 2131099808;
 			
 			// aapt resource value: 0x7f06009d
 			public const int CloseButton = 2131099805;
 			
-			// aapt resource value: 0x7f0600a0
-			public const int CountriesSpinner = 2131099808;
-			
-			// aapt resource value: 0x7f0600a9
-			public const int CurrenciesSpinner = 2131099817;
+			// aapt resource value: 0x7f0600a8
+			public const int CurrenciesSpinner = 2131099816;
 			
 			// aapt resource value: 0x7f060079
 			public const int DepartureDateTextView = 2131099769;
@@ -2165,14 +2162,14 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060098
 			public const int PriceTitleTextView = 2131099800;
 			
-			// aapt resource value: 0x7f0600a7
-			public const int SearchButton = 2131099815;
+			// aapt resource value: 0x7f0600a6
+			public const int SendButton = 2131099814;
 			
 			// aapt resource value: 0x7f060096
 			public const int ToCityTitleTextView = 2131099798;
 			
-			// aapt resource value: 0x7f0600ab
-			public const int WebButton = 2131099819;
+			// aapt resource value: 0x7f0600aa
+			public const int WebButton = 2131099818;
 			
 			// aapt resource value: 0x7f060087
 			public const int action0 = 2131099783;
@@ -2240,17 +2237,17 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06002d
 			public const int bottom = 2131099693;
 			
-			// aapt resource value: 0x7f0600a3
-			public const int buttonLeft = 2131099811;
+			// aapt resource value: 0x7f0600a2
+			public const int buttonLeft = 2131099810;
 			
 			// aapt resource value: 0x7f060047
 			public const int buttonPanel = 2131099719;
 			
-			// aapt resource value: 0x7f0600a4
-			public const int buttonRight = 2131099812;
+			// aapt resource value: 0x7f0600a3
+			public const int buttonRight = 2131099811;
 			
-			// aapt resource value: 0x7f0600a5
-			public const int calendar = 2131099813;
+			// aapt resource value: 0x7f0600a4
+			public const int calendar = 2131099812;
 			
 			// aapt resource value: 0x7f060086
 			public const int calendar_grid = 2131099782;
@@ -2369,8 +2366,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060012
 			public const int homeAsUp = 2131099666;
 			
-			// aapt resource value: 0x7f0600a6
-			public const int hoursSpinner = 2131099814;
+			// aapt resource value: 0x7f0600a5
+			public const int hoursSpinner = 2131099813;
 			
 			// aapt resource value: 0x7f060045
 			public const int icon = 2131099717;
@@ -2399,8 +2396,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060090
 			public const int line3 = 2131099792;
 			
-			// aapt resource value: 0x7f0600a2
-			public const int linearCalendarButtonLayout = 2131099810;
+			// aapt resource value: 0x7f0600a1
+			public const int linearCalendarButtonLayout = 2131099809;
 			
 			// aapt resource value: 0x7f06000e
 			public const int listMode = 2131099662;
@@ -2573,11 +2570,11 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060050
 			public const int textSpacerNoButtons = 2131099728;
 			
-			// aapt resource value: 0x7f0600a8
-			public const int textView1 = 2131099816;
+			// aapt resource value: 0x7f0600a7
+			public const int textView1 = 2131099815;
 			
-			// aapt resource value: 0x7f0600aa
-			public const int textView2 = 2131099818;
+			// aapt resource value: 0x7f0600a9
+			public const int textView2 = 2131099817;
 			
 			// aapt resource value: 0x7f060099
 			public const int ticketsLinearLayout = 2131099801;
@@ -2600,11 +2597,11 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060083
 			public const int toolbar = 2131099779;
 			
-			// aapt resource value: 0x7f0600ad
-			public const int toolbar_shadow = 2131099821;
-			
 			// aapt resource value: 0x7f0600ac
-			public const int toolbar_title = 2131099820;
+			public const int toolbar_shadow = 2131099820;
+			
+			// aapt resource value: 0x7f0600ab
+			public const int toolbar_title = 2131099819;
 			
 			// aapt resource value: 0x7f060035
 			public const int top = 2131099701;

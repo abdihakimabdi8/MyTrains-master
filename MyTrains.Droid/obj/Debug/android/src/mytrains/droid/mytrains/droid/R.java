@@ -2593,10 +2593,9 @@ containing a value of this type.
     public static final class id {
         public static final int AddToCartButton=0x7f06009c;
         public static final int BeneficiariesSpinner=0x7f06009f;
-        public static final int CitiesSpinner=0x7f0600a1;
+        public static final int CitiesSpinner=0x7f0600a0;
         public static final int CloseButton=0x7f06009d;
-        public static final int CountriesSpinner=0x7f0600a0;
-        public static final int CurrenciesSpinner=0x7f0600a9;
+        public static final int CurrenciesSpinner=0x7f0600a8;
         public static final int DepartureDateTextView=0x7f060079;
         public static final int DepartureDateTextViewValue=0x7f060094;
         public static final int DepartureDateTitleTextView=0x7f060078;
@@ -2610,9 +2609,9 @@ containing a value of this type.
         public static final int NumberOfTicketsView=0x7f06009a;
         public static final int PriceTextView=0x7f060080;
         public static final int PriceTitleTextView=0x7f060098;
-        public static final int SearchButton=0x7f0600a7;
+        public static final int SendButton=0x7f0600a6;
         public static final int ToCityTitleTextView=0x7f060096;
-        public static final int WebButton=0x7f0600ab;
+        public static final int WebButton=0x7f0600aa;
         public static final int action0=0x7f060087;
         public static final int action_bar=0x7f06005d;
         public static final int action_bar_activity_content=0x7f060001;
@@ -2635,10 +2634,10 @@ containing a value of this type.
         public static final int arrivalTimeTextView=0x7f06007f;
         public static final int beginning=0x7f06001e;
         public static final int bottom=0x7f06002d;
-        public static final int buttonLeft=0x7f0600a3;
+        public static final int buttonLeft=0x7f0600a2;
         public static final int buttonPanel=0x7f060047;
-        public static final int buttonRight=0x7f0600a4;
-        public static final int calendar=0x7f0600a5;
+        public static final int buttonRight=0x7f0600a3;
+        public static final int calendar=0x7f0600a4;
         public static final int calendar_grid=0x7f060086;
         public static final int cancel_action=0x7f060088;
         public static final int center=0x7f06002e;
@@ -2678,7 +2677,7 @@ containing a value of this type.
         public static final int fixed=0x7f06003b;
         public static final int home=0x7f060005;
         public static final int homeAsUp=0x7f060012;
-        public static final int hoursSpinner=0x7f0600a6;
+        public static final int hoursSpinner=0x7f0600a5;
         public static final int icon=0x7f060045;
         public static final int ifRoom=0x7f060023;
         public static final int image=0x7f060042;
@@ -2688,7 +2687,7 @@ containing a value of this type.
         public static final int left_drawer=0x7f060085;
         public static final int line1=0x7f06008c;
         public static final int line3=0x7f060090;
-        public static final int linearCalendarButtonLayout=0x7f0600a2;
+        public static final int linearCalendarButtonLayout=0x7f0600a1;
         public static final int listMode=0x7f06000e;
         public static final int list_item=0x7f060044;
         public static final int mainLinearLayout=0x7f060076;
@@ -2746,8 +2745,8 @@ containing a value of this type.
         public static final int text=0x7f060091;
         public static final int text2=0x7f06008f;
         public static final int textSpacerNoButtons=0x7f060050;
-        public static final int textView1=0x7f0600a8;
-        public static final int textView2=0x7f0600aa;
+        public static final int textView1=0x7f0600a7;
+        public static final int textView2=0x7f0600a9;
         public static final int ticketsLinearLayout=0x7f060099;
         public static final int time=0x7f06008d;
         public static final int title=0x7f060046;
@@ -2755,8 +2754,8 @@ containing a value of this type.
         public static final int title_template=0x7f06004b;
         public static final int toCityTextView=0x7f06007e;
         public static final int toolbar=0x7f060083;
-        public static final int toolbar_shadow=0x7f0600ad;
-        public static final int toolbar_title=0x7f0600ac;
+        public static final int toolbar_shadow=0x7f0600ac;
+        public static final int toolbar_title=0x7f0600ab;
         public static final int top=0x7f060035;
         public static final int topPanel=0x7f06004a;
         public static final int touch_outside=0x7f06006c;

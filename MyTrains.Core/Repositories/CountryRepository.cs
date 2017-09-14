@@ -12,6 +12,11 @@ namespace MyTrains.Core.Repositories
         {
             new Country
             {
+                CountryId = 0,
+                CountryName = "Select Country"
+            },
+            new Country
+            {
                 CountryId = 1,
                 CountryName = "Somalia"
             },

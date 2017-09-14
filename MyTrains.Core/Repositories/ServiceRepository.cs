@@ -10,6 +10,12 @@ namespace MyTrains.Core.Repositories
     {
         private static readonly List<Service> AllServices = new List<Service>
         {
+
+            new Service
+            {
+                ServiceId = 0,
+                ServiceName = "Select Service Type"
+            },
             new Service
             {
                 ServiceId = 1,

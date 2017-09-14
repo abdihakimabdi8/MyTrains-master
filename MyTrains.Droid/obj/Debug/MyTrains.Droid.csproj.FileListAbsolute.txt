@@ -145,7 +145,6 @@ C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Droid\obj\Debug\android\assets\M
 C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Droid\obj\Debug\android\assets\MyTrains.Localization.dll.mdb
 C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll.mdb
 C:\Users\habdi\Desktop\MyTrains-master\MyTrains.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll.mdb
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\MyTrains.Droid.csprojResolveAssemblyReference.cache
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.dll
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.pdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.MyTrains.Droid.apk
@@ -206,6 +205,7 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\Plugin.Connectivity.
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\nl-BE\MyTrains.Localization.resources.dll
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\MyTrains.Droid.csprojResolveAssemblyReference.cache
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\MyTrains.Droid.csproj.CoreCompileInputs.cache
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\MyTrains.Droid.dll
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\MyTrains.Droid.pdb
@@ -219,6 +219,7 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_menu
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\values\dimens.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\splashscreen.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\values\splashstyle.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\sendremittanceview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\savedremittancesview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\settingsview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_city.xml
@@ -266,6 +267,12 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable-xxxhdpi
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable-xxxhdpi\arrow_right.png
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable-xxxhdpi\arrow_up.png
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable-xxxhdpi\splash.png
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_beneficiary.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_beneficiary_dropdown.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_country.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_country_dropdown..xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_service.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_service_dropdown.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\values\strings.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\drawer_shadow_light.9.png
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\drawer_shadow_dark.9.png
@@ -279,13 +286,6 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\btn_ena
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_remittance_search_result.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\R.cs.flag
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\uploadflags.txt
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\sendremittanceview.xml
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_beneficiary.xml
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_beneficiary_dropdown.xml
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_country.xml
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_country_dropdown..xml
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_service.xml
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_service_dropdown.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Core.dll.mdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Localization.dll.mdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.dll.mdb

@@ -12,6 +12,11 @@ namespace MyTrains.Core.Repositories
         {
             new City
             {
+                CityId = 0,
+                CityName = "Select City"
+            },
+            new City
+            {
                 CityId = 1,
                 CityName = "Jig-Jiga"
             },

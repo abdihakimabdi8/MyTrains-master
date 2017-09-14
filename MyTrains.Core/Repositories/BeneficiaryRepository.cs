@@ -10,6 +10,11 @@ namespace MyTrains.Core.Repositories
     {
         private static readonly List<Beneficiary> AllBeneficiaries = new List<Beneficiary>
         {
+             new Beneficiary
+            {
+                BeneficiaryId = 0,
+                BeneficiaryName = "Select Beneficiary"
+            },
             new Beneficiary
             {
                 BeneficiaryId = 1,
