@@ -149,6 +149,6 @@
             android:textColor="@color/white"
             android:textSize="17sp"
             android:layout_marginTop="@dimen/default_vertical_padding"
-            local:MvxBind="Click SearchCommand" />
+            local:MvxBind="Click SendCommand" />
     </LinearLayout>
 </ScrollView>
