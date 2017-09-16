@@ -4,6 +4,7 @@
     {
         SendRemittance = 0,
         SavedRemittances,
-        Settings
+        SavedBeneficiaries,
+        Settings,
     }
 }

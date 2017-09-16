@@ -23,5 +23,10 @@ namespace MyTrains.Core.Services.Data
         {
             return await _beneficiaryRepository.GetBeneficiaryById(beneficiaryId);
         }
+      
+        public async Task<Beneficiary> GetBeneficiaryDetails(int beneficiaryId)
+        {
+            return await _beneficiaryRepository.GetBeneficiaryDetails(beneficiaryId);
+        }
     }
 }

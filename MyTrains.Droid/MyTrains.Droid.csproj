@@ -234,8 +234,10 @@
     <Compile Include="Services\DialogService.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
+    <Compile Include="Views\BeneficiaryDetailsFragment.cs" />
     <Compile Include="Views\RemittanceDetailsFragment.cs" />
     <Compile Include="Views\MenuFragment.cs" />
+    <Compile Include="Views\SavedBeneficiariesFragment.cs" />
     <Compile Include="Views\SavedRemittancesFragment.cs" />
     <Compile Include="Views\SendRemittanceFragment.cs" />
     <Compile Include="Views\SearchResultsFragment.cs" />
@@ -355,6 +357,18 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\item_service_dropdown.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SavedBeneficiariesView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\item_saved_beneficiary.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\item_beneficiary_search_result.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BeneficiaryDetailsView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -2,6 +2,10 @@ MyTrains.Droid.SplashScreen, MyTrains.Droid;md58ef8e38ab8562754de8ecf9214f9f2c2.
 MyTrains.Droid.SplashScreen, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58ef8e38ab8562754de8ecf9214f9f2c2.SplashScreen
 MyTrains.Droid.SplashScreen;md58ef8e38ab8562754de8ecf9214f9f2c2.SplashScreen
 mytrains.droid.SplashScreen;md58ef8e38ab8562754de8ecf9214f9f2c2.SplashScreen
+MyTrains.Droid.Views.BeneficiaryDetailsFragment, MyTrains.Droid;mytrains.droid.views.BeneficiaryDetailsFragment
+MyTrains.Droid.Views.BeneficiaryDetailsFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.BeneficiaryDetailsFragment
+MyTrains.Droid.Views.BeneficiaryDetailsFragment;mytrains.droid.views.BeneficiaryDetailsFragment
+mytrains.droid.views.BeneficiaryDetailsFragment;mytrains.droid.views.BeneficiaryDetailsFragment
 MyTrains.Droid.Views.RemittanceDetailsFragment, MyTrains.Droid;mytrains.droid.views.RemittanceDetailsFragment
 MyTrains.Droid.Views.RemittanceDetailsFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.RemittanceDetailsFragment
 MyTrains.Droid.Views.RemittanceDetailsFragment;mytrains.droid.views.RemittanceDetailsFragment
@@ -10,6 +14,10 @@ MyTrains.Droid.Views.MenuFragment, MyTrains.Droid;mytrains.droid.views.MenuFragm
 MyTrains.Droid.Views.MenuFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.MenuFragment
 MyTrains.Droid.Views.MenuFragment;mytrains.droid.views.MenuFragment
 mytrains.droid.views.MenuFragment;mytrains.droid.views.MenuFragment
+MyTrains.Droid.Views.SavedBeneficiariesFragment, MyTrains.Droid;mytrains.droid.views.SavedBeneficiariesFragment
+MyTrains.Droid.Views.SavedBeneficiariesFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SavedBeneficiariesFragment
+MyTrains.Droid.Views.SavedBeneficiariesFragment;mytrains.droid.views.SavedBeneficiariesFragment
+mytrains.droid.views.SavedBeneficiariesFragment;mytrains.droid.views.SavedBeneficiariesFragment
 MyTrains.Droid.Views.SavedRemittancesFragment, MyTrains.Droid;mytrains.droid.views.SavedRemittancesFragment
 MyTrains.Droid.Views.SavedRemittancesFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SavedRemittancesFragment
 MyTrains.Droid.Views.SavedRemittancesFragment;mytrains.droid.views.SavedRemittancesFragment

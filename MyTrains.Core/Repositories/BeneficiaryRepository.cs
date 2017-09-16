@@ -63,5 +63,9 @@ namespace MyTrains.Core.Repositories
         {
             return await Task.FromResult(AllBeneficiaries.FirstOrDefault(c => c.BeneficiaryId == beneficiaryId));
         }
+        public async Task<Beneficiary> GetBeneficiaryDetails(int beneficiaryId)
+        {
+            return await Task.FromResult(AllBeneficiaries.FirstOrDefault(c => c.BeneficiaryId == beneficiaryId));
+        }
     }
 }

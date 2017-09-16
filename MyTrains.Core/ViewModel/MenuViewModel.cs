@@ -40,8 +40,8 @@ namespace MyTrains.Core.ViewModel
             MenuItems.Add(new MenuItem
             {
                 Title = "Beneficiaries",
-                ViewModelType = typeof(SavedRemittancesViewModel),
-                Option = MenuOption.SavedRemittances,
+                ViewModelType = typeof(SavedBeneficiariesViewModel),
+                Option = MenuOption.SavedBeneficiaries,
                 IsSelected = false
             });
             MenuItems.Add(new MenuItem

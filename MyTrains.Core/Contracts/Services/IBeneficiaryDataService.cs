@@ -12,5 +12,7 @@ namespace MyTrains.Core.Contracts.Services
         Task<List<Beneficiary>> GetAllBeneficiaries();
 
         Task<Beneficiary> GetBeneficiaryById(int beneficiaryId);
+        Task<Beneficiary> GetBeneficiaryDetails(int beneficiaryId);
+
     }
 }
