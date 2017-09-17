@@ -121,6 +121,7 @@
     <Compile Include="Model\City.cs" />
     <Compile Include="Model\Country.cs" />
     <Compile Include="Model\Currency.cs" />
+    <Compile Include="Model\Recipient.cs" />
     <Compile Include="Model\Remittance.cs" />
     <Compile Include="Model\SavedBeneficiary.cs" />
     <Compile Include="Model\SavedRemittance.cs" />
@@ -132,6 +133,7 @@
     <Compile Include="Repositories\BeneficiaryRepository.cs" />
     <Compile Include="Repositories\CityRepository.cs" />
     <Compile Include="Repositories\CountryRepository.cs" />
+    <Compile Include="Repositories\RecipientRepository.cs" />
     <Compile Include="Repositories\RemittanceRepository.cs" />
     <Compile Include="Repositories\SavedBeneficiaryRepository.cs" />
     <Compile Include="Repositories\SavedRemittanceRepository.cs" />
@@ -151,11 +153,13 @@
     <Compile Include="Utility\MenuOption.cs" />
     <Compile Include="Utility\ResxTextProvider.cs" />
     <Compile Include="Utility\UrlConstants.cs" />
+    <Compile Include="ViewModel\AllRecipientsViewModel.cs" />
     <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="ViewModel\BeneficiaryDetailViewModel.cs" />
     <Compile Include="Contracts\Services\ISavedBeneficiaryDataService.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\MenuViewModel.cs" />
+    <Compile Include="ViewModel\RecipientViewModel.cs" />
     <Compile Include="ViewModel\RemittanceDetailViewModel.cs" />
     <Compile Include="ViewModel\SavedBeneficiariesViewModel.cs" />
     <Compile Include="ViewModel\SavedRemittancesViewModel.cs" />

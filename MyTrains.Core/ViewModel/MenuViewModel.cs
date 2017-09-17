@@ -4,6 +4,7 @@ using MvvmCross.Core.ViewModels;
 using MvvmCross.Plugins.Messenger;
 using MyTrains.Core.Model.App;
 using MyTrains.Core.Utility;
+using System.Windows.Input;
 
 namespace MyTrains.Core.ViewModel
 {
@@ -46,6 +47,21 @@ namespace MyTrains.Core.ViewModel
             });
             MenuItems.Add(new MenuItem
             {
+                Title = "Add Recipient",
+                ViewModelType = typeof(RecipientViewModel),
+                Option = MenuOption.CreateRecipient,
+                IsSelected = false
+            });
+            MenuItems.Add(new MenuItem
+            {
+                Title = "Recipients",
+                ViewModelType = typeof(AllRecipientsViewModel),
+                Option = MenuOption.AllRecipients,
+                IsSelected = false
+            });
+
+            MenuItems.Add(new MenuItem
+            {
                 Title = "Settings",
                 ViewModelType = typeof(SettingsViewModel),
                 Option = MenuOption.Settings,
@@ -60,6 +76,28 @@ namespace MyTrains.Core.ViewModel
             });
         }
 
+            public ICommand NavigateCreateRecipient
+            {
+                get
+                {
+                    // Navigation Note:
+                    // Must add following value to Assembly.cs for any Windows projects to see the lambda.
+                    // [assembly: InternalsVisibleTo("Cirrious.MvvmCross")]
+                    return new MvxCommand(() => ShowViewModel<RecipientViewModel>());
+                }
+            }
+
+            public ICommand NavigateAllRecipients
+            {
+                get
+                {
+                    // Navigation Note:
+                    // Must add following value to Assembly.cs for any Windows projects to see the lambda.
+                    // [assembly: InternalsVisibleTo("Cirrious.MvvmCross")]
+                    return new MvxCommand(() => ShowViewModel<AllRecipientsViewModel>());
+                }
+            }
+        
         private void OnMenuEntrySelect(MenuItem item)
         {
             ShowViewModel(item.ViewModelType);

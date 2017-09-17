@@ -12,7 +12,7 @@ using MvvmCross.Platform;
 using MvvmCross.Platform.Platform;
 using MyTrains.Core.Contracts.Services;
 using MyTrains.Droid.Services;
-
+using MyTrains.Core;
 namespace MyTrains.Droid
 {
     public class Setup: MvxAndroidSetup
@@ -23,9 +23,10 @@ namespace MyTrains.Droid
 
         protected override IMvxApplication CreateApp()
         {
+            var dbConn = FileAccessHelper.GetLocalFilePath("saafimaster.db3");
+            Mvx.RegisterSingleton(new RecipientRepository(dbConn));
             return new Core.App();
         }
-
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();

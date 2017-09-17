@@ -298,6 +298,9 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\SQLitePCLRaw.lib.e_s
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\SQLite-net.pdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\SQLite-net.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\allrecipientsview.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\listitemrecipient.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\recipientview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Core.dll.mdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Localization.dll.mdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.dll.mdb

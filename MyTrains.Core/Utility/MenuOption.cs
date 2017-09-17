@@ -5,6 +5,8 @@
         SendRemittance = 0,
         SavedRemittances,
         SavedBeneficiaries,
+        CreateRecipient,
+        AllRecipients,
         Settings,
     }
 }

@@ -19,4 +19,3 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Loca
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Localization\obj\Debug\nl-BE\MyTrains.Localization.resources.dll
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.dll
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.pdb
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.csprojResolveAssemblyReference.cache
