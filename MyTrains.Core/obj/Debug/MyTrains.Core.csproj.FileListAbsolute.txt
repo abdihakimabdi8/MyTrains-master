@@ -66,3 +66,9 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\obj\Debug\MyTrains.Core.csprojR
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\obj\Debug\MyTrains.Core.csproj.CoreCompileInputs.cache
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\obj\Debug\MyTrains.Core.dll
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\obj\Debug\MyTrains.Core.pdb
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\bin\Debug\SQLite-net.dll
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\bin\Debug\SQLite-net.pdb
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Core\bin\Debug\SQLite-net.xml
