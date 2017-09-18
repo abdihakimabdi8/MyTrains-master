@@ -2108,14 +2108,17 @@ namespace MyTrains.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0600a4
+			public const int AddRecipient = 2131099812;
+			
 			// aapt resource value: 0x7f060074
 			public const int AddToBeneficiaryButton = 2131099764;
 			
-			// aapt resource value: 0x7f0600a9
-			public const int AddToCartButton = 2131099817;
+			// aapt resource value: 0x7f0600ac
+			public const int AddToCartButton = 2131099820;
 			
-			// aapt resource value: 0x7f0600ab
-			public const int BeneficiariesSpinner = 2131099819;
+			// aapt resource value: 0x7f0600ae
+			public const int BeneficiariesSpinner = 2131099822;
 			
 			// aapt resource value: 0x7f060082
 			public const int BeneficiaryName = 2131099778;
@@ -2141,20 +2144,20 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06008c
 			public const int BenficiaryNameTitleTextView = 2131099788;
 			
-			// aapt resource value: 0x7f0600ac
-			public const int CitiesSpinner = 2131099820;
+			// aapt resource value: 0x7f0600af
+			public const int CitiesSpinner = 2131099823;
 			
 			// aapt resource value: 0x7f060075
 			public const int CloseButton = 2131099765;
 			
-			// aapt resource value: 0x7f0600b4
-			public const int CurrenciesSpinner = 2131099828;
+			// aapt resource value: 0x7f0600b6
+			public const int CurrenciesSpinner = 2131099830;
 			
 			// aapt resource value: 0x7f060085
 			public const int DepartureDateTextView = 2131099781;
 			
-			// aapt resource value: 0x7f0600a2
-			public const int DepartureDateTextViewValue = 2131099810;
+			// aapt resource value: 0x7f0600a5
+			public const int DepartureDateTextViewValue = 2131099813;
 			
 			// aapt resource value: 0x7f060084
 			public const int DepartureDateTitleTextView = 2131099780;
@@ -2165,8 +2168,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060087
 			public const int FromCityTextView = 2131099783;
 			
-			// aapt resource value: 0x7f0600a3
-			public const int FromCityTitleTextView = 2131099811;
+			// aapt resource value: 0x7f0600a6
+			public const int FromCityTitleTextView = 2131099814;
 			
 			// aapt resource value: 0x7f06000c
 			public const int MvvmCrossTagId = 2131099660;
@@ -2174,29 +2177,29 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06000d
 			public const int MvxBindingTagUnique = 2131099661;
 			
-			// aapt resource value: 0x7f0600a8
-			public const int NumberOfTicketsEditText = 2131099816;
+			// aapt resource value: 0x7f0600ab
+			public const int NumberOfTicketsEditText = 2131099819;
 			
 			// aapt resource value: 0x7f06008f
 			public const int NumberOfTicketsTextViewLabel = 2131099791;
 			
-			// aapt resource value: 0x7f0600a7
-			public const int NumberOfTicketsView = 2131099815;
+			// aapt resource value: 0x7f0600aa
+			public const int NumberOfTicketsView = 2131099818;
 			
 			// aapt resource value: 0x7f060083
 			public const int PriceTextView = 2131099779;
 			
-			// aapt resource value: 0x7f0600a6
-			public const int PriceTitleTextView = 2131099814;
+			// aapt resource value: 0x7f0600a9
+			public const int PriceTitleTextView = 2131099817;
 			
-			// aapt resource value: 0x7f0600b2
-			public const int SendButton = 2131099826;
+			// aapt resource value: 0x7f0600b5
+			public const int SendButton = 2131099829;
 			
-			// aapt resource value: 0x7f0600a4
-			public const int ToCityTitleTextView = 2131099812;
+			// aapt resource value: 0x7f0600a7
+			public const int ToCityTitleTextView = 2131099815;
 			
-			// aapt resource value: 0x7f0600b6
-			public const int WebButton = 2131099830;
+			// aapt resource value: 0x7f0600b7
+			public const int WebButton = 2131099831;
 			
 			// aapt resource value: 0x7f060095
 			public const int action0 = 2131099797;
@@ -2273,17 +2276,17 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06002d
 			public const int bottom = 2131099693;
 			
-			// aapt resource value: 0x7f0600ae
-			public const int buttonLeft = 2131099822;
+			// aapt resource value: 0x7f0600b1
+			public const int buttonLeft = 2131099825;
 			
 			// aapt resource value: 0x7f060047
 			public const int buttonPanel = 2131099719;
 			
-			// aapt resource value: 0x7f0600af
-			public const int buttonRight = 2131099823;
+			// aapt resource value: 0x7f0600b2
+			public const int buttonRight = 2131099826;
 			
-			// aapt resource value: 0x7f0600b0
-			public const int calendar = 2131099824;
+			// aapt resource value: 0x7f0600b3
+			public const int calendar = 2131099827;
 			
 			// aapt resource value: 0x7f060094
 			public const int calendar_grid = 2131099796;
@@ -2402,8 +2405,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060012
 			public const int homeAsUp = 2131099666;
 			
-			// aapt resource value: 0x7f0600b1
-			public const int hoursSpinner = 2131099825;
+			// aapt resource value: 0x7f0600b4
+			public const int hoursSpinner = 2131099828;
 			
 			// aapt resource value: 0x7f060045
 			public const int icon = 2131099717;
@@ -2432,8 +2435,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06009e
 			public const int line3 = 2131099806;
 			
-			// aapt resource value: 0x7f0600ad
-			public const int linearCalendarButtonLayout = 2131099821;
+			// aapt resource value: 0x7f0600b0
+			public const int linearCalendarButtonLayout = 2131099824;
 			
 			// aapt resource value: 0x7f06000e
 			public const int listMode = 2131099662;
@@ -2480,8 +2483,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06002c
 			public const int pin = 2131099692;
 			
-			// aapt resource value: 0x7f0600a5
-			public const int priceLinearLayout = 2131099813;
+			// aapt resource value: 0x7f0600a8
+			public const int priceLinearLayout = 2131099816;
 			
 			// aapt resource value: 0x7f060006
 			public const int progress_circular = 2131099654;
@@ -2543,8 +2546,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06006a
 			public const int search_voice_btn = 2131099754;
 			
-			// aapt resource value: 0x7f0600aa
-			public const int searchresults_list = 2131099818;
+			// aapt resource value: 0x7f0600ad
+			public const int searchresults_list = 2131099821;
 			
 			// aapt resource value: 0x7f06006b
 			public const int select_dialog_listview = 2131099755;
@@ -2606,11 +2609,11 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060050
 			public const int textSpacerNoButtons = 2131099728;
 			
-			// aapt resource value: 0x7f0600b3
-			public const int textView1 = 2131099827;
+			// aapt resource value: 0x7f0600a2
+			public const int textView1 = 2131099810;
 			
-			// aapt resource value: 0x7f0600b5
-			public const int textView2 = 2131099829;
+			// aapt resource value: 0x7f0600a3
+			public const int textView2 = 2131099811;
 			
 			// aapt resource value: 0x7f060071
 			public const int ticketsLinearLayout = 2131099761;
@@ -2633,11 +2636,11 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060091
 			public const int toolbar = 2131099793;
 			
-			// aapt resource value: 0x7f0600b8
-			public const int toolbar_shadow = 2131099832;
+			// aapt resource value: 0x7f0600b9
+			public const int toolbar_shadow = 2131099833;
 			
-			// aapt resource value: 0x7f0600b7
-			public const int toolbar_title = 2131099831;
+			// aapt resource value: 0x7f0600b8
+			public const int toolbar_title = 2131099832;
 			
 			// aapt resource value: 0x7f060035
 			public const int top = 2131099701;

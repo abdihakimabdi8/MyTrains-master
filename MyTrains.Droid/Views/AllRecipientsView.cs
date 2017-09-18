@@ -12,5 +12,6 @@ namespace MyTrains.Droid.Views
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.AllRecipientsView);
         }
+
     }
 }
