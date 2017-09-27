@@ -2,9 +2,8 @@
 {
     public enum MenuOption
     {
-        SendRemittance = 0,
-        SavedRemittances,
-        SavedBeneficiaries,
+        CreateTransfer = 0,
+        AllTransfers,
         CreateRecipient,
         AllRecipients,
         Settings,

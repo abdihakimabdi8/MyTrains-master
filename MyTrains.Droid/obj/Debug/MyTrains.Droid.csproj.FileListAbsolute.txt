@@ -288,6 +288,9 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\beneficia
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\listitemrecipient.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\allrecipientsview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\recipientview.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\alltransfersview.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\listitemtransfer.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\transferview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\values\strings.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\drawer_shadow_light.9.png
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\drawer_shadow_dark.9.png

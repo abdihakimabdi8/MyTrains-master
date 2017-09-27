@@ -25,6 +25,8 @@ namespace MyTrains.Droid
         {
             var dbConn = FileAccessHelper.GetLocalFilePath("saafimaster.db3");
             Mvx.RegisterSingleton(new RecipientRepository(dbConn));
+            Mvx.RegisterSingleton(new TransferRepository(dbConn));
+
             return new Core.App();
         }
         protected override IMvxTrace CreateDebugTrace()

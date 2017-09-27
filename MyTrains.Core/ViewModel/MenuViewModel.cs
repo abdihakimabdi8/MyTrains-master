@@ -26,23 +26,16 @@ namespace MyTrains.Core.ViewModel
             MenuItems.Add(new MenuItem
             {
                 Title = "Send Money",
-                ViewModelType = typeof(SendRemittanceViewModel),
-                Option = MenuOption.SendRemittance,
-                IsSelected = true
+                ViewModelType = typeof(TransferViewModel),
+                Option = MenuOption.CreateTransfer,
+                IsSelected = false
             });
 
             MenuItems.Add(new MenuItem
             {
                 Title = "Transactions",
-                ViewModelType = typeof(SavedRemittancesViewModel),
-                Option = MenuOption.SavedRemittances,
-                IsSelected = false
-            });
-            MenuItems.Add(new MenuItem
-            {
-                Title = "Beneficiaries",
-                ViewModelType = typeof(SavedBeneficiariesViewModel),
-                Option = MenuOption.SavedBeneficiaries,
+                ViewModelType = typeof(AllTransfersViewModel),
+                Option = MenuOption.AllTransfers,
                 IsSelected = false
             });
             MenuItems.Add(new MenuItem
@@ -97,7 +90,28 @@ namespace MyTrains.Core.ViewModel
                     return new MvxCommand(() => ShowViewModel<AllRecipientsViewModel>());
                 }
             }
-        
+
+        public ICommand NavigateCreateTransfer
+        {
+            get
+            {
+                // Navigation Note:
+                // Must add following value to Assembly.cs for any Windows projects to see the lambda.
+                // [assembly: InternalsVisibleTo("Cirrious.MvvmCross")]
+                return new MvxCommand(() => ShowViewModel<TransferViewModel>());
+            }
+        }
+
+        public ICommand NavigateAllTransfers
+        {
+            get
+            {
+                // Navigation Note:
+                // Must add following value to Assembly.cs for any Windows projects to see the lambda.
+                // [assembly: InternalsVisibleTo("Cirrious.MvvmCross")]
+                return new MvxCommand(() => ShowViewModel<AllTransfersViewModel>());
+            }
+        }
         private void OnMenuEntrySelect(MenuItem item)
         {
             ShowViewModel(item.ViewModelType);

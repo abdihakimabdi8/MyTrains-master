@@ -127,6 +127,7 @@
     <Compile Include="Model\SavedRemittance.cs" />
     <Compile Include="Model\Service.cs" />
     <Compile Include="Model\Settings.cs" />
+    <Compile Include="Model\Transfer.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="Repositories\SavedRemittanceRepository.cs" />
     <Compile Include="Repositories\ServiceRepository.cs" />
     <Compile Include="Repositories\SettingsRepository.cs" />
+    <Compile Include="Repositories\TransferRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Services\Data\BeneficiaryDataService.cs" />
     <Compile Include="Services\Data\CityDataService.cs" />
@@ -154,6 +156,7 @@
     <Compile Include="Utility\ResxTextProvider.cs" />
     <Compile Include="Utility\UrlConstants.cs" />
     <Compile Include="ViewModel\AllRecipientsViewModel.cs" />
+    <Compile Include="ViewModel\AllTransfersViewModel.cs" />
     <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="ViewModel\BeneficiaryDetailViewModel.cs" />
     <Compile Include="Contracts\Services\ISavedBeneficiaryDataService.cs" />
@@ -167,6 +170,7 @@
     <Compile Include="ViewModel\SearchResultViewModel.cs" />
     <Compile Include="ViewModel\SecondViewModel.cs" />
     <Compile Include="ViewModel\SettingsViewModel.cs" />
+    <Compile Include="ViewModel\TransferViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

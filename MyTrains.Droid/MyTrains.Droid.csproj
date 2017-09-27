@@ -254,6 +254,7 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\AllRecipientsView.cs" />
+    <Compile Include="Views\AllTransfersView.cs" />
     <Compile Include="Views\BeneficiaryDetailsFragment.cs" />
     <Compile Include="Views\RecipientView.cs" />
     <Compile Include="Views\RemittanceDetailsFragment.cs" />
@@ -263,6 +264,7 @@
     <Compile Include="Views\SendRemittanceFragment.cs" />
     <Compile Include="Views\SearchResultsFragment.cs" />
     <Compile Include="Views\SettingsFragment.cs" />
+    <Compile Include="Views\TransferView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -399,6 +401,15 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\RecipientView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AllTransfersView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ListItemTransfer.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\TransferView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
