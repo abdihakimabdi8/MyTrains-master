@@ -13,6 +13,7 @@ using MvvmCross.Platform.Platform;
 using MyTrains.Core.Contracts.Services;
 using MyTrains.Droid.Services;
 using MyTrains.Core;
+using MyTrains.Core.Repositories;
 namespace MyTrains.Droid
 {
     public class Setup: MvxAndroidSetup
@@ -26,6 +27,7 @@ namespace MyTrains.Droid
             var dbConn = FileAccessHelper.GetLocalFilePath("saafimaster.db3");
             Mvx.RegisterSingleton(new RecipientRepository(dbConn));
             Mvx.RegisterSingleton(new TransferRepository(dbConn));
+            Mvx.RegisterSingleton(new PlatformRepository(dbConn));
 
             return new Core.App();
         }

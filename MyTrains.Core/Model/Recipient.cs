@@ -25,7 +25,10 @@ namespace MyTrains.Core.Models
             RecipientName = string.Empty;
             RecipientPhoneNumber = string.Empty;
         }
-
+        public override string ToString()
+        {
+            return $"{RecipientId} ({RecipientName})";
+        }
         public bool IsValid()
         {
             return (!String.IsNullOrWhiteSpace(RecipientName) && !String.IsNullOrWhiteSpace(RecipientPhoneNumber));

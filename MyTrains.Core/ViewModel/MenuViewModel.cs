@@ -62,9 +62,9 @@ namespace MyTrains.Core.ViewModel
             });
             MenuItems.Add(new MenuItem
             {
-                Title = "Support",
-                ViewModelType = typeof(SettingsViewModel),
-                Option = MenuOption.Settings,
+                Title = "Platforms",
+                ViewModelType = typeof(PlatformViewModel),
+                Option = MenuOption.Platform,
                 IsSelected = false
             });
         }

@@ -11,6 +11,8 @@ namespace MyTrains.Core.ViewModel
         private readonly Lazy<SendRemittanceViewModel> _sendRemittanceViewModel;
         private readonly Lazy<SavedRemittancesViewModel> _savedRemittancesViewModel;
         private readonly Lazy<SettingsViewModel> _settingsViewModel;
+
+        private readonly Lazy<PlatformViewModel> _platformViewModel;
         private readonly Lazy<SavedBeneficiariesViewModel> _savedBeneficiariesViewModel;
 
         public SendRemittanceViewModel SendRemittanceViewModel => _sendRemittanceViewModel.Value;
@@ -19,13 +21,14 @@ namespace MyTrains.Core.ViewModel
         public SavedBeneficiariesViewModel SavedBeneficiariesViewModel => _savedBeneficiariesViewModel.Value;
 
         public SettingsViewModel SettingsViewModel => _settingsViewModel.Value;
+        public PlatformViewModel PlatformViewModel => _platformViewModel.Value;
 
         public MainViewModel()
         {
             _sendRemittanceViewModel = new Lazy<SendRemittanceViewModel>(Mvx.IocConstruct<SendRemittanceViewModel>);
             _savedRemittancesViewModel = new Lazy<SavedRemittancesViewModel>(Mvx.IocConstruct<SavedRemittancesViewModel>);
             _savedBeneficiariesViewModel = new Lazy<SavedBeneficiariesViewModel>(Mvx.IocConstruct<SavedBeneficiariesViewModel>);
-
+            _platformViewModel = new Lazy<PlatformViewModel>(Mvx.IocConstruct<PlatformViewModel>);
             _settingsViewModel = new Lazy<SettingsViewModel>(Mvx.IocConstruct<SettingsViewModel>);
         }
 

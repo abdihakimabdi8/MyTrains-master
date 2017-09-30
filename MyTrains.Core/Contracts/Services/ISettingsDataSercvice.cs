@@ -8,6 +8,7 @@ namespace MyTrains.Core.Contracts.Services
     {
         List<Currency> GetCurrencies();
         Currency GetActiveCurrency();
+
         void SetActiveCurrency(Currency currency);
         string GetAboutContent();
     }

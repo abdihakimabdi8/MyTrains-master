@@ -12,6 +12,8 @@ namespace MyTrains.Core.Repositories
             new Currency { CurrencyId = 2, CurrencyName = "Euro", CurrencySymbol = "€"},
             new Currency { CurrencyId = 3, CurrencyName = "Pound", CurrencySymbol = "£"}
         };
+
+
         public List<Currency> GetAvailableCurrencies()
         {
             return AllAvailableCurrencies;

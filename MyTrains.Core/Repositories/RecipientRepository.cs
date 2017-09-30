@@ -41,5 +41,15 @@ namespace MyTrains.Core
             // Return a list of bills saved to the Bill table in the database.
             return conn.Table<Recipient>().ToListAsync();
         }
+
+        //public Recipient GetCurrencyById(int recipientId)
+        //{
+        //    return AllRecipients[recipientId];
+        //}
+
+        public string GetAboutContent()
+        {
+            return "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.";
+        }
     }
 }

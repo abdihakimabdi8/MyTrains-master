@@ -304,6 +304,8 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\btn_ena
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_remittance_search_result.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\R.cs.flag
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\uploadflags.txt
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\platformview.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_platform.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Core.dll.mdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Localization.dll.mdb
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.dll.mdb

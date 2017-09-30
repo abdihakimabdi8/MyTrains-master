@@ -87,6 +87,7 @@
     <Compile Include="Contracts\Repository\IRemittanceRepository.cs" />
     <Compile Include="Contracts\Repository\ISavedRemittanceRepository.cs" />
     <Compile Include="Contracts\Repository\ISettingsRepository.cs" />
+    <Compile Include="Contracts\Repository\IPlatformRepository.cs" />
     <Compile Include="Contracts\Repository\IUserRepository.cs" />
     <Compile Include="Contracts\Services\IBeneficiaryDataService.cs" />
     <Compile Include="Contracts\Services\ICityDataService.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Contracts\Services\ISavedRemittanceDataService.cs" />
     <Compile Include="Contracts\Services\IServiceDataService.cs" />
     <Compile Include="Contracts\Services\ISettingsDataSercvice.cs" />
+    <Compile Include="Contracts\Services\IPlatformDataSercvice.cs" />
     <Compile Include="Contracts\Services\IUserDataService.cs" />
     <Compile Include="Contracts\ViewModel\IBeneficiaryDetailViewModel.cs" />
     <Compile Include="Contracts\ViewModel\ILoginViewModel.cs" />
@@ -107,6 +109,7 @@
     <Compile Include="Contracts\ViewModel\ISendResultViewModel.cs" />
     <Compile Include="Contracts\ViewModel\ISettingsViewModel.cs" />
     <Compile Include="Contracts\ViewModel\ISavedBeneficiariesViewModel.cs" />
+    <Compile Include="Contracts\ViewModel\IPlatformViewModel.cs" />
     <Compile Include="Converters\CurrencyToStringConverter.cs" />
     <Compile Include="Converters\DateTimeToDayConverter.cs" />
     <Compile Include="Converters\DateTimeToTimeConverter.cs" />
@@ -114,6 +117,7 @@
     <Compile Include="Extensions\TaskExtensions.cs" />
     <Compile Include="Fake\FakeSendRemittanceViewModel.cs" />
     <Compile Include="Messages\CurrencyChangedMessage.cs" />
+    <Compile Include="Messages\PlatformChangedMessage.cs" />
     <Compile Include="Model\App\MenuItem.cs" />
     <Compile Include="Model\App\SendParameters.cs" />
     <Compile Include="Model\BaseModel.cs" />
@@ -121,12 +125,14 @@
     <Compile Include="Model\City.cs" />
     <Compile Include="Model\Country.cs" />
     <Compile Include="Model\Currency.cs" />
+    <Compile Include="Model\Platform.cs" />
     <Compile Include="Model\Recipient.cs" />
     <Compile Include="Model\Remittance.cs" />
     <Compile Include="Model\SavedBeneficiary.cs" />
     <Compile Include="Model\SavedRemittance.cs" />
     <Compile Include="Model\Service.cs" />
     <Compile Include="Model\Settings.cs" />
+    <Compile Include="Model\SelectPlatform.cs" />
     <Compile Include="Model\Transfer.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -140,6 +146,7 @@
     <Compile Include="Repositories\SavedRemittanceRepository.cs" />
     <Compile Include="Repositories\ServiceRepository.cs" />
     <Compile Include="Repositories\SettingsRepository.cs" />
+    <Compile Include="Repositories\PlatformRepository.cs" />
     <Compile Include="Repositories\TransferRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Services\Data\BeneficiaryDataService.cs" />
@@ -148,6 +155,7 @@
     <Compile Include="Services\Data\RemittanceDataService.cs" />
     <Compile Include="Services\Data\SavedRemittanceDataService.cs" />
     <Compile Include="Services\Data\SettingsDataService.cs" />
+    <Compile Include="Services\Data\PlatformDataService.cs" />
     <Compile Include="Services\Data\UserDataService.cs" />
     <Compile Include="Services\General\ConnectionService.cs" />
     <Compile Include="Services\Data\ServiceDataService.cs" />
@@ -170,6 +178,7 @@
     <Compile Include="ViewModel\SearchResultViewModel.cs" />
     <Compile Include="ViewModel\SecondViewModel.cs" />
     <Compile Include="ViewModel\SettingsViewModel.cs" />
+    <Compile Include="ViewModel\PlatformViewModel.cs" />
     <Compile Include="ViewModel\TransferViewModel.cs" />
   </ItemGroup>
   <ItemGroup>

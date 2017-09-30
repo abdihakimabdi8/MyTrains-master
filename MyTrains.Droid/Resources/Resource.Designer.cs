@@ -2108,20 +2108,20 @@ namespace MyTrains.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0600a5
-			public const int AddRecipient = 2131099813;
+			// aapt resource value: 0x7f0600a7
+			public const int AddRecipient = 2131099815;
 			
 			// aapt resource value: 0x7f060075
 			public const int AddToBeneficiaryButton = 2131099765;
 			
-			// aapt resource value: 0x7f0600ad
-			public const int AddToCartButton = 2131099821;
+			// aapt resource value: 0x7f0600af
+			public const int AddToCartButton = 2131099823;
 			
 			// aapt resource value: 0x7f0600bb
 			public const int AddTransfer = 2131099835;
 			
-			// aapt resource value: 0x7f0600af
-			public const int BeneficiariesSpinner = 2131099823;
+			// aapt resource value: 0x7f0600b1
+			public const int BeneficiariesSpinner = 2131099825;
 			
 			// aapt resource value: 0x7f060083
 			public const int BeneficiaryName = 2131099779;
@@ -2147,20 +2147,20 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06008d
 			public const int BenficiaryNameTitleTextView = 2131099789;
 			
-			// aapt resource value: 0x7f0600b0
-			public const int CitiesSpinner = 2131099824;
+			// aapt resource value: 0x7f0600b2
+			public const int CitiesSpinner = 2131099826;
 			
 			// aapt resource value: 0x7f060076
 			public const int CloseButton = 2131099766;
 			
-			// aapt resource value: 0x7f0600b7
-			public const int CurrenciesSpinner = 2131099831;
+			// aapt resource value: 0x7f0600a4
+			public const int CurrenciesSpinner = 2131099812;
 			
 			// aapt resource value: 0x7f060086
 			public const int DepartureDateTextView = 2131099782;
 			
-			// aapt resource value: 0x7f0600a6
-			public const int DepartureDateTextViewValue = 2131099814;
+			// aapt resource value: 0x7f0600a8
+			public const int DepartureDateTextViewValue = 2131099816;
 			
 			// aapt resource value: 0x7f060085
 			public const int DepartureDateTitleTextView = 2131099781;
@@ -2171,8 +2171,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060088
 			public const int FromCityTextView = 2131099784;
 			
-			// aapt resource value: 0x7f0600a7
-			public const int FromCityTitleTextView = 2131099815;
+			// aapt resource value: 0x7f0600a9
+			public const int FromCityTitleTextView = 2131099817;
 			
 			// aapt resource value: 0x7f06000c
 			public const int MvvmCrossTagId = 2131099660;
@@ -2180,29 +2180,29 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06000d
 			public const int MvxBindingTagUnique = 2131099661;
 			
-			// aapt resource value: 0x7f0600ac
-			public const int NumberOfTicketsEditText = 2131099820;
+			// aapt resource value: 0x7f0600ae
+			public const int NumberOfTicketsEditText = 2131099822;
 			
 			// aapt resource value: 0x7f060090
 			public const int NumberOfTicketsTextViewLabel = 2131099792;
 			
-			// aapt resource value: 0x7f0600ab
-			public const int NumberOfTicketsView = 2131099819;
+			// aapt resource value: 0x7f0600ad
+			public const int NumberOfTicketsView = 2131099821;
 			
 			// aapt resource value: 0x7f060084
 			public const int PriceTextView = 2131099780;
 			
-			// aapt resource value: 0x7f0600aa
-			public const int PriceTitleTextView = 2131099818;
-			
-			// aapt resource value: 0x7f0600b6
-			public const int SendButton = 2131099830;
-			
-			// aapt resource value: 0x7f0600a8
-			public const int ToCityTitleTextView = 2131099816;
+			// aapt resource value: 0x7f0600ac
+			public const int PriceTitleTextView = 2131099820;
 			
 			// aapt resource value: 0x7f0600b8
-			public const int WebButton = 2131099832;
+			public const int SendButton = 2131099832;
+			
+			// aapt resource value: 0x7f0600aa
+			public const int ToCityTitleTextView = 2131099818;
+			
+			// aapt resource value: 0x7f0600a6
+			public const int WebButton = 2131099814;
 			
 			// aapt resource value: 0x7f060096
 			public const int action0 = 2131099798;
@@ -2279,17 +2279,17 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06002d
 			public const int bottom = 2131099693;
 			
-			// aapt resource value: 0x7f0600b2
-			public const int buttonLeft = 2131099826;
+			// aapt resource value: 0x7f0600b4
+			public const int buttonLeft = 2131099828;
 			
 			// aapt resource value: 0x7f060047
 			public const int buttonPanel = 2131099719;
 			
-			// aapt resource value: 0x7f0600b3
-			public const int buttonRight = 2131099827;
+			// aapt resource value: 0x7f0600b5
+			public const int buttonRight = 2131099829;
 			
-			// aapt resource value: 0x7f0600b4
-			public const int calendar = 2131099828;
+			// aapt resource value: 0x7f0600b6
+			public const int calendar = 2131099830;
 			
 			// aapt resource value: 0x7f060095
 			public const int calendar_grid = 2131099797;
@@ -2408,8 +2408,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f060012
 			public const int homeAsUp = 2131099666;
 			
-			// aapt resource value: 0x7f0600b5
-			public const int hoursSpinner = 2131099829;
+			// aapt resource value: 0x7f0600b7
+			public const int hoursSpinner = 2131099831;
 			
 			// aapt resource value: 0x7f060045
 			public const int icon = 2131099717;
@@ -2438,8 +2438,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06009f
 			public const int line3 = 2131099807;
 			
-			// aapt resource value: 0x7f0600b1
-			public const int linearCalendarButtonLayout = 2131099825;
+			// aapt resource value: 0x7f0600b3
+			public const int linearCalendarButtonLayout = 2131099827;
 			
 			// aapt resource value: 0x7f06000e
 			public const int listMode = 2131099662;
@@ -2486,8 +2486,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06002c
 			public const int pin = 2131099692;
 			
-			// aapt resource value: 0x7f0600a9
-			public const int priceLinearLayout = 2131099817;
+			// aapt resource value: 0x7f0600ab
+			public const int priceLinearLayout = 2131099819;
 			
 			// aapt resource value: 0x7f060006
 			public const int progress_circular = 2131099654;
@@ -2549,8 +2549,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f06006a
 			public const int search_voice_btn = 2131099754;
 			
-			// aapt resource value: 0x7f0600ae
-			public const int searchresults_list = 2131099822;
+			// aapt resource value: 0x7f0600b0
+			public const int searchresults_list = 2131099824;
 			
 			// aapt resource value: 0x7f06006b
 			public const int select_dialog_listview = 2131099755;
@@ -2615,8 +2615,8 @@ namespace MyTrains.Droid
 			// aapt resource value: 0x7f0600a3
 			public const int textView1 = 2131099811;
 			
-			// aapt resource value: 0x7f0600a4
-			public const int textView2 = 2131099812;
+			// aapt resource value: 0x7f0600a5
+			public const int textView2 = 2131099813;
 			
 			// aapt resource value: 0x7f060072
 			public const int ticketsLinearLayout = 2131099762;
@@ -2870,103 +2870,109 @@ namespace MyTrains.Droid
 			public const int item_menu = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int item_remittance_search_result = 2130903090;
+			public const int item_platform = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int item_saved_beneficiary = 2130903091;
+			public const int item_remittance_search_result = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int item_saved_remittance = 2130903092;
+			public const int item_saved_beneficiary = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int item_service = 2130903093;
+			public const int item_saved_remittance = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int item_service_dropdown = 2130903094;
+			public const int item_service = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int ListItemRecipient = 2130903095;
+			public const int item_service_dropdown = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int ListItemTransfer = 2130903096;
+			public const int ListItemRecipient = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int MainView = 2130903097;
+			public const int ListItemTransfer = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int month = 2130903098;
+			public const int MainView = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_media_action = 2130903099;
+			public const int month = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_media_cancel_action = 2130903100;
+			public const int notification_media_action = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_big_media = 2130903101;
+			public const int notification_media_cancel_action = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_big_media_narrow = 2130903102;
+			public const int notification_template_big_media = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int notification_template_lines = 2130903103;
+			public const int notification_template_big_media_narrow = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int notification_template_media = 2130903104;
+			public const int notification_template_lines = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int notification_template_part_chronometer = 2130903105;
+			public const int notification_template_media = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int notification_template_part_time = 2130903106;
+			public const int notification_template_part_chronometer = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int RecipientView = 2130903107;
+			public const int notification_template_part_time = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int RemittanceDetailsView = 2130903108;
+			public const int PlatformView = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int SavedBeneficiariesView = 2130903109;
+			public const int RecipientView = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int SavedRemittancesView = 2130903110;
+			public const int RemittanceDetailsView = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int SearchResultsView = 2130903111;
+			public const int SavedBeneficiariesView = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int select_dialog_item_material = 2130903112;
+			public const int SavedRemittancesView = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int select_dialog_multichoice_material = 2130903113;
+			public const int SearchResultsView = 2130903113;
 			
 			// aapt resource value: 0x7f03004a
-			public const int select_dialog_singlechoice_material = 2130903114;
+			public const int select_dialog_item_material = 2130903114;
 			
 			// aapt resource value: 0x7f03004b
-			public const int SendRemittanceView = 2130903115;
+			public const int select_dialog_multichoice_material = 2130903115;
 			
 			// aapt resource value: 0x7f03004c
-			public const int SettingsView = 2130903116;
+			public const int select_dialog_singlechoice_material = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int SplashScreen = 2130903117;
+			public const int SendRemittanceView = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int support_simple_spinner_dropdown_item = 2130903118;
+			public const int SettingsView = 2130903118;
 			
 			// aapt resource value: 0x7f03004f
-			public const int toolbar = 2130903119;
+			public const int SplashScreen = 2130903119;
 			
 			// aapt resource value: 0x7f030050
-			public const int toolbar_shadow = 2130903120;
+			public const int support_simple_spinner_dropdown_item = 2130903120;
 			
 			// aapt resource value: 0x7f030051
-			public const int TransferView = 2130903121;
+			public const int toolbar = 2130903121;
 			
 			// aapt resource value: 0x7f030052
-			public const int week = 2130903122;
+			public const int toolbar_shadow = 2130903122;
+			
+			// aapt resource value: 0x7f030053
+			public const int TransferView = 2130903123;
+			
+			// aapt resource value: 0x7f030054
+			public const int week = 2130903124;
 			
 			static Layout()
 			{
