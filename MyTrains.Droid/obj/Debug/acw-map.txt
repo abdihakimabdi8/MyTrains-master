@@ -14,10 +14,10 @@ MyTrains.Droid.Views.BeneficiaryDetailsFragment, MyTrains.Droid;mytrains.droid.v
 MyTrains.Droid.Views.BeneficiaryDetailsFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.BeneficiaryDetailsFragment
 MyTrains.Droid.Views.BeneficiaryDetailsFragment;mytrains.droid.views.BeneficiaryDetailsFragment
 mytrains.droid.views.BeneficiaryDetailsFragment;mytrains.droid.views.BeneficiaryDetailsFragment
-MyTrains.Droid.Views.PlatformFragment, MyTrains.Droid;mytrains.droid.views.PlatformFragment
-MyTrains.Droid.Views.PlatformFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.PlatformFragment
-MyTrains.Droid.Views.PlatformFragment;mytrains.droid.views.PlatformFragment
-mytrains.droid.views.PlatformFragment;mytrains.droid.views.PlatformFragment
+MyTrains.Droid.Views.PlatformView, MyTrains.Droid;mytrains.droid.views.PlatformView
+MyTrains.Droid.Views.PlatformView, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.PlatformView
+MyTrains.Droid.Views.PlatformView;mytrains.droid.views.PlatformView
+mytrains.droid.views.PlatformView;mytrains.droid.views.PlatformView
 MyTrains.Droid.Views.RecipientView, MyTrains.Droid;mytrains.droid.views.RecipientView
 MyTrains.Droid.Views.RecipientView, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.RecipientView
 MyTrains.Droid.Views.RecipientView;mytrains.droid.views.RecipientView

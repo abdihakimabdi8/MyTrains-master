@@ -256,7 +256,7 @@
     <Compile Include="Views\AllRecipientsView.cs" />
     <Compile Include="Views\AllTransfersView.cs" />
     <Compile Include="Views\BeneficiaryDetailsFragment.cs" />
-    <Compile Include="Views\PlaformFragment.cs" />
+    <Compile Include="Views\PlatformView.cs" />
     <Compile Include="Views\RecipientView.cs" />
     <Compile Include="Views\RemittanceDetailsFragment.cs" />
     <Compile Include="Views\MenuFragment.cs" />
