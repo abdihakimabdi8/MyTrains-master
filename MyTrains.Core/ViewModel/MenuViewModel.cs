@@ -26,8 +26,8 @@ namespace MyTrains.Core.ViewModel
             MenuItems.Add(new MenuItem
             {
                 Title = "Send Money",
-                ViewModelType = typeof(TransferViewModel),
-                Option = MenuOption.CreateTransfer,
+                ViewModelType = typeof(SendViewModel),
+                Option = MenuOption.Send,
                 IsSelected = false
             });
 
