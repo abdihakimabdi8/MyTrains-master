@@ -46,6 +46,10 @@ MyTrains.Droid.Views.SearchResultsFragment, MyTrains.Droid;mytrains.droid.views.
 MyTrains.Droid.Views.SearchResultsFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SearchResultsFragment
 MyTrains.Droid.Views.SearchResultsFragment;mytrains.droid.views.SearchResultsFragment
 mytrains.droid.views.SearchResultsFragment;mytrains.droid.views.SearchResultsFragment
+MyTrains.Droid.Views.SendView, MyTrains.Droid;mytrains.droid.views.SendView
+MyTrains.Droid.Views.SendView, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SendView
+MyTrains.Droid.Views.SendView;mytrains.droid.views.SendView
+mytrains.droid.views.SendView;mytrains.droid.views.SendView
 MyTrains.Droid.Views.SettingsFragment, MyTrains.Droid;mytrains.droid.views.SettingsFragment
 MyTrains.Droid.Views.SettingsFragment, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.SettingsFragment
 MyTrains.Droid.Views.SettingsFragment;mytrains.droid.views.SettingsFragment

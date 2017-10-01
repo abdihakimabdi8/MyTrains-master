@@ -177,6 +177,7 @@
     <Compile Include="ViewModel\SendRemittanceViewModel.cs" />
     <Compile Include="ViewModel\SearchResultViewModel.cs" />
     <Compile Include="ViewModel\SecondViewModel.cs" />
+    <Compile Include="ViewModel\SendViewModel.cs" />
     <Compile Include="ViewModel\SettingsViewModel.cs" />
     <Compile Include="ViewModel\PlatformViewModel.cs" />
     <Compile Include="ViewModel\TransferViewModel.cs" />

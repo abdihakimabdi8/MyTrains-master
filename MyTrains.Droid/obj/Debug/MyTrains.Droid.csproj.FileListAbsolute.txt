@@ -293,7 +293,7 @@ C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\listitemt
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\transferview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\platformview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_platform.xml
-C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\recipientlistview.xml
+C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\sendview.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\item_recipientlist.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\values\strings.xml
 C:\Users\habdi\Desktop\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\drawer_shadow_light.9.png

@@ -56,8 +56,8 @@ namespace MyTrains.Core.ViewModel
             MenuItems.Add(new MenuItem
             {
                 Title = "Recipients List",
-                ViewModelType = typeof(AllRecipientsViewModel),
-                Option = MenuOption.AllRecipients,
+                ViewModelType = typeof(SendViewModel),
+                Option = MenuOption.Send,
                 IsSelected = false
             });
             MenuItems.Add(new MenuItem

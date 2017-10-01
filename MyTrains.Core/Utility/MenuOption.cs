@@ -6,6 +6,7 @@
         AllTransfers,
         CreateRecipient,
         AllRecipients,
+        Send,
         Settings,
     }
 }

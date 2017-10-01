@@ -264,6 +264,7 @@
     <Compile Include="Views\SavedRemittancesFragment.cs" />
     <Compile Include="Views\SendRemittanceFragment.cs" />
     <Compile Include="Views\SearchResultsFragment.cs" />
+    <Compile Include="Views\SendView.cs" />
     <Compile Include="Views\SettingsFragment.cs" />
     <Compile Include="Views\TransferView.cs" />
   </ItemGroup>
@@ -419,7 +420,7 @@
     <AndroidResource Include="Resources\layout\item_platform.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\RecipientListView.axml">
+    <AndroidResource Include="Resources\layout\SendView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\item_recipientlist.axml">
