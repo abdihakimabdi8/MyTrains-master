@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="@dimen/default_horizontal_padding">
-      <!--<Mvx.MvxSpinner
+    <!--<Mvx.MvxSpinner
         android:layout_width="match_parent"
         android:background="@drawable/spinner_border"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         local:MvxItemTemplate="@layout/item_beneficiary"
         local:MvxDropDownItemTemplate="@layout/item_beneficiary"
         local:MvxBind="ItemsSource Beneficiaries; SelectedItem SelectedBeneficiary" />-->
-      <!--<Mvx.MvxSpinner
+    <!--<Mvx.MvxSpinner
           android:layout_width="match_parent"
           android:background="@drawable/spinner_border"
           android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
           local:MvxDropDownItemTemplate="@layout/item_country"
           local:MvxBind="ItemsSource Countries; SelectedItem SelectedCountry" />-->
         <Mvx.MvxSpinner
-              android:layout_width="match_parent"
+            android:layout_width="match_parent"
             android:background="@drawable/spinner_border"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -43,7 +43,7 @@
             local:MvxDropDownItemTemplate="@layout/item_beneficiary"
             local:MvxBind="ItemsSource Beneficiaries; SelectedItem SelectedBeneficiary" />
         <Mvx.MvxSpinner
-              android:layout_width="match_parent"
+            android:layout_width="match_parent"
             android:background="@drawable/spinner_border"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

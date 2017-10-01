@@ -14,5 +14,9 @@ namespace MyTrains.Core.Contracts.Services
         Task<Beneficiary> GetRecipientById(int recipientId);
         Task<Beneficiary> GetRecipientDetails(int recipientId);
 
+        public string GetAboutContent()
+        {
+            return _recipientRepository.GetAboutContent();
+        }
     }
 }

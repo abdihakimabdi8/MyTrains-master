@@ -47,9 +47,13 @@ namespace MyTrains.Core
         //    return AllRecipients[recipientId];
         //}
 
-        public string GetAboutContent()
+        public string GetSendContentTitle()
         {
-            return "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.";
+            return "Send money with love Instant, no fee transfers from the US, UK, and Canada to Ghana and East Africa with the best rates.";
+        }
+        public string GetSendContentBody()
+        {
+            return "Instant, no fee transfers from the US, UK, and Canada to Ghana and East Africa with the best rates.";
         }
     }
 }
