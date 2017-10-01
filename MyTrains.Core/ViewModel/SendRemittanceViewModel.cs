@@ -66,7 +66,7 @@ namespace MyTrains.Core.ViewModel
                 if (_selectedCountry != value)
                 {
                     _selectedCountry = value;
-                    RaisePropertyChanged(() => _selectedCountry);
+                    RaisePropertyChanged(() => SelectedCountry);
                 }
             }
         }
@@ -78,7 +78,7 @@ namespace MyTrains.Core.ViewModel
                 if (_selectedCity != value)
                 {
                     _selectedCity = value;
-                    RaisePropertyChanged(() => _selectedCity);
+                    RaisePropertyChanged(() => SelectedCity);
                 }
             }
         }

@@ -5,23 +5,23 @@
     android:layout_width="match_parent"
     android:padding="@dimen/default_horizontal_padding"
     android:layout_height="match_parent">
-  <TextView
-      android:text="Select currency for the app"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/textView1"
-      android:textSize="17dp"
-      android:textColor="@color/primary"
-      android:layout_marginTop="10dp" />
-  <Mvx.MvxSpinner
-      android:layout_width="match_parent"
-      android:background="@drawable/spinner_border"
-      android:layout_height="30dp"
-      android:spinnerMode="dropdown"
-      android:layout_below="@id/textView1"
-      android:id="@+id/CurrenciesSpinner"
-      android:layout_marginTop="10dp"
-      local:MvxItemTemplate="@layout/item_platform"
-      local:MvxDropDownItemTemplate="@layout/item_platform"
-      local:MvxBind="ItemsSource AllRecipients" />
+    <TextView
+        android:text="Select currency for the app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="17dp"
+        android:textColor="@color/primary"
+        android:layout_marginTop="10dp" />
+    <Mvx.MvxSpinner
+        android:layout_width="match_parent"
+        android:background="@drawable/spinner_border"
+        android:layout_height="30dp"
+        android:spinnerMode="dropdown"
+        android:layout_below="@id/textView1"
+        android:id="@+id/CurrenciesSpinner"
+        android:layout_marginTop="10dp"
+        local:MvxItemTemplate="@layout/item_recipientlist"
+        local:MvxDropDownItemTemplate="@layout/item_recipientlist"
+        local:MvxBind="ItemsSource AllRecipients" />
 </RelativeLayout>

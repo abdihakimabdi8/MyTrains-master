@@ -55,18 +55,19 @@ namespace MyTrains.Core.ViewModel
 
             MenuItems.Add(new MenuItem
             {
+                Title = "Recipients List",
+                ViewModelType = typeof(AllRecipientsViewModel),
+                Option = MenuOption.AllRecipients,
+                IsSelected = false
+            });
+            MenuItems.Add(new MenuItem
+            {
                 Title = "Settings",
                 ViewModelType = typeof(SettingsViewModel),
                 Option = MenuOption.Settings,
                 IsSelected = false
             });
-            MenuItems.Add(new MenuItem
-            {
-                Title = "Platforms",
-                ViewModelType = typeof(PlatformViewModel),
-                Option = MenuOption.Platform,
-                IsSelected = false
-            });
+           
         }
 
             public ICommand NavigateCreateRecipient

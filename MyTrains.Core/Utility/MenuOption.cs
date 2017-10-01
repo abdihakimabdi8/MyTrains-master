@@ -7,6 +7,5 @@
         CreateRecipient,
         AllRecipients,
         Settings,
-        Platform,
     }
 }

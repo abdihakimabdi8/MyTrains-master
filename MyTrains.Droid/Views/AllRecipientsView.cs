@@ -15,14 +15,7 @@ namespace MyTrains.Droid.Views
     [MvxFragment(typeof(MainViewModel), Resource.Id.content_frame, true)]
     [Register("mytrains.droid.views.AllRecipientsView")]
     public class AllRecipientsView : MvxFragment<AllRecipientsViewModel>
-   // [Activity(Label = "All Recipients", NoHistory = true)]
     {
-        //protected override void OnCreate(Bundle bundle)
-        //{
-        //    base.OnCreate(bundle);
-        //    SetContentView(Resource.Layout.AllRecipientsView);
-        //}
-        //{
             public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
             {
                 base.OnCreateView(inflater, container, savedInstanceState);
