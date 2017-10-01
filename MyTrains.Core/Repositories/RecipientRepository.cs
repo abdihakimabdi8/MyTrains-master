@@ -49,11 +49,11 @@ namespace MyTrains.Core
 
         public string GetSendContentTitle()
         {
-            return "Send money with love Instant, no fee transfers from the US, UK, and Canada to Ghana and East Africa with the best rates.";
+            return "Send money with love";
         }
         public string GetSendContentBody()
         {
-            return "Instant, no fee transfers from the US, UK, and Canada to Ghana and East Africa with the best rates.";
+            return "Instant, low fee transfers from the US, UK, and Canada to Somalia, Ethiopia and Kenya with the best rates.";
         }
     }
 }

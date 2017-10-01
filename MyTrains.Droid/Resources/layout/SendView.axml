@@ -79,9 +79,11 @@
         android:text="Send"
         android:background="@drawable/button_selector"
         android:textColor="@color/white"
+        android:layout_marginLeft="1dp"
+        
         android:textSize="17sp"
-        android:layout_marginTop="@dimen/default_vertical_padding"
-        local:MvxBind="Click SendCommand" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="155dp"
+        local:MvxBind="Click SendCommand"/>
   </LinearLayout>
 </ScrollView>
-

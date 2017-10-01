@@ -231,7 +231,7 @@ namespace MyTrains.Core.ViewModel
         {
             Services = (await _serviceDataService.GetAllServices()).ToObservableCollection();
         }
-
+       
         public ICommand NavBack
         {
             get
@@ -248,6 +248,12 @@ namespace MyTrains.Core.ViewModel
             Task<List<Recipient>> result = Mvx.Resolve<RecipientRepository>().GetAllRecipients();
             result.Wait();
             AllRecipients = result.Result;
+
+           string  sendContentTitle = Mvx.Resolve<RecipientRepository>().GetSendContentTitle().ToString();
+           string sendContentBody = Mvx.Resolve<RecipientRepository>().GetSendContentBody().ToString();
+
+            SendContentTitle = sendContentTitle;
+            SendContentBody = sendContentBody;
         }
     }
 }
