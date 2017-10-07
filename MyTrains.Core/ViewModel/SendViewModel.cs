@@ -162,22 +162,22 @@ namespace MyTrains.Core.ViewModel
                 RaisePropertyChanged(() => PossibleTimes);
             }
         }
-        Transfer _transfer;
+        Send _send;
 
 
-        public ICommand SaveTransfer
+        public ICommand SaveSend
         {
             get
             {
                 return new MvxCommand(() => {
-                    if (_transfer.IsValid())
-                    {
+                    //if (_s.IsValid())
+                    //{
                         // Here we are simply waiting for the thread to complete.
                         // In a production app, this would be the opportunity to
                         // provide UI updates while the save thread completes.
-                        Mvx.Resolve<TransferRepository>().CreateTransfer(_transfer).Wait();
+                        Mvx.Resolve<SendRepository>().CreateSend(_send).Wait();
                         Close(this);
-                    }
+                    //}
                 });
             }
         }

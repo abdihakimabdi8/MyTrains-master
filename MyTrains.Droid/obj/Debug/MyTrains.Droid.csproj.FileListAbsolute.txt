@@ -484,3 +484,15 @@ C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\R.cs.flag
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\uploadflags.txt
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\allsendsview.xml
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Core.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Localization.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MvvmCross.Binding.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MvvmCross.Localization.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MvvmCross.Platform.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MvvmCross.Plugins.File.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MyTrains.Core.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MyTrains.Droid.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MyTrains.Localization.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll.mdb

@@ -11,11 +11,14 @@ namespace MyTrains.Core
         private readonly SQLiteAsyncConnection conn;
 
         public string StatusMessage { get; set; }
-
         public SendRepository(string dbPath)
         {
-            conn = new SQLiteAsyncConnection(dbPath);
-            conn.CreateTableAsync<Send>().Wait();
+            //    conn = new SQLiteAsyncConnection(dbPath);
+            //    conn.CreateTableAsync<Send>().Wait();
+            //    conn.CreateTableAsync<Recipient>().Wait();
+            var conn = new SQLiteConnection(dbPath);
+            conn.CreateTable<Recipient>();
+            conn.CreateTable<Send>();
         }
 
         public async Task CreateSend(Send send)
@@ -28,11 +31,11 @@ namespace MyTrains.Core
 
                 // Insert a new customer bill into the database
                 var result = await conn.InsertAsync(send).ConfigureAwait(continueOnCapturedContext: false);
-                StatusMessage = $"{result} record(s) added [Customer Email: {send.Recipient})";
+                StatusMessage = $"{result} record(s) added [Customer Email: {send.RecipientId})";
             }
             catch (Exception ex)
             {
-                StatusMessage = $"Failed to create {send.Recipient}'s bill. Error: {ex.Message}";
+                StatusMessage = $"Failed to create {send.RecipientId}'s bill. Error: {ex.Message}";
             }
         }
 

@@ -84,6 +84,6 @@
         android:textSize="17sp"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="155dp"
-        local:MvxBind="Click SendCommand"/>
+        local:MvxBind="Click SaveSend"/>
   </LinearLayout>
 </ScrollView>
