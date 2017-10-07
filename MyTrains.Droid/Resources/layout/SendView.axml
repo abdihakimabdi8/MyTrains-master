@@ -20,7 +20,7 @@
         android:id="@+id/BeneficiariesSpinner"
         local:MvxItemTemplate="@layout/item_recipientlist"
         local:MvxDropDownItemTemplate="@layout/item_recipientlist"
-        local:MvxBind="ItemsSource AllRecipients" />
+        local:MvxBind="ItemsSource AllRecipients; SelectedItem SelectedRecipient" />
     <Mvx.MvxSpinner
         android:layout_width="match_parent"
         android:background="@drawable/spinner_border"

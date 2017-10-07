@@ -28,6 +28,7 @@ namespace MyTrains.Droid
             Mvx.RegisterSingleton(new RecipientRepository(dbConn));
             Mvx.RegisterSingleton(new TransferRepository(dbConn));
             Mvx.RegisterSingleton(new PlatformRepository(dbConn));
+            Mvx.RegisterSingleton(new SendRepository(dbConn));
 
             return new Core.App();
         }

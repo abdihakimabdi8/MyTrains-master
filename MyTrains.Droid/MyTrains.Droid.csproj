@@ -254,6 +254,7 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\AllRecipientsView.cs" />
+    <Compile Include="Views\AllSendsView.cs" />
     <Compile Include="Views\AllTransfersView.cs" />
     <Compile Include="Views\BeneficiaryDetailsFragment.cs" />
     <Compile Include="Views\PlatformView.cs" />
@@ -424,6 +425,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\item_recipientlist.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AllSendsView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

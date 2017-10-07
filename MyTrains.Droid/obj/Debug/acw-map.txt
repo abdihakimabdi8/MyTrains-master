@@ -6,6 +6,10 @@ MyTrains.Droid.Views.AllRecipientsView, MyTrains.Droid;mytrains.droid.views.AllR
 MyTrains.Droid.Views.AllRecipientsView, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.AllRecipientsView
 MyTrains.Droid.Views.AllRecipientsView;mytrains.droid.views.AllRecipientsView
 mytrains.droid.views.AllRecipientsView;mytrains.droid.views.AllRecipientsView
+MyTrains.Droid.Views.AllSendsView, MyTrains.Droid;mytrains.droid.views.AllSendsView
+MyTrains.Droid.Views.AllSendsView, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.AllSendsView
+MyTrains.Droid.Views.AllSendsView;mytrains.droid.views.AllSendsView
+mytrains.droid.views.AllSendsView;mytrains.droid.views.AllSendsView
 MyTrains.Droid.Views.AllTransfersView, MyTrains.Droid;mytrains.droid.views.AllTransfersView
 MyTrains.Droid.Views.AllTransfersView, MyTrains.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mytrains.droid.views.AllTransfersView
 MyTrains.Droid.Views.AllTransfersView;mytrains.droid.views.AllTransfersView

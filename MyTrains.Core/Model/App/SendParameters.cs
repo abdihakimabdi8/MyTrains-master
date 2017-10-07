@@ -4,6 +4,7 @@ namespace MyTrains.Core.Model.App
 {
     public class SendParameters
     {
+        public int RecipientId { get; set; }
         public int BeneficiaryId { get; set; }
         public int CountryId { get; set; }
         public int CityId { get; set; }

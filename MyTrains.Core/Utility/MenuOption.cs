@@ -7,6 +7,7 @@
         CreateRecipient,
         AllRecipients,
         Send,
+        AllSends,
         Settings,
     }
 }

@@ -25,6 +25,7 @@ namespace MyTrains.Core.ViewModel
         private readonly IConnectionService _connectionService;
         private readonly IDialogService _dialogService;
         private Beneficiary _selectedBeneficiary;
+        private Recipient _selectedRecipient;
         private Country _selectedCountry;
         private City _selectedCity;
         private Service _selectedService;
@@ -49,7 +50,18 @@ namespace MyTrains.Core.ViewModel
                 }
             }
         }
-
+        public Recipient SelectedRecipient
+        {
+            get { return _selectedRecipient; }
+            set
+            {
+                if (_selectedRecipient != value)
+                {
+                    _selectedRecipient = value;
+                    RaisePropertyChanged(() => SelectedRecipient);
+                }
+            }
+        }
         public Service SelectedService
         {
             get { return _selectedService; }
@@ -150,9 +162,25 @@ namespace MyTrains.Core.ViewModel
                 RaisePropertyChanged(() => PossibleTimes);
             }
         }
+        Transfer _transfer;
 
 
-
+        public ICommand SaveTransfer
+        {
+            get
+            {
+                return new MvxCommand(() => {
+                    if (_transfer.IsValid())
+                    {
+                        // Here we are simply waiting for the thread to complete.
+                        // In a production app, this would be the opportunity to
+                        // provide UI updates while the save thread completes.
+                        Mvx.Resolve<TransferRepository>().CreateTransfer(_transfer).Wait();
+                        Close(this);
+                    }
+                });
+            }
+        }
         public IMvxCommand SendCommand
         {
             get
@@ -160,7 +188,7 @@ namespace MyTrains.Core.ViewModel
                 return new MvxCommand(() =>
                     ShowViewModel<SearchResultViewModel>(new SendParameters
                     {
-                        //BeneficiaryId = SelectedBeneficiary.BeneficiaryId,
+                        RecipientId = SelectedRecipient.RecipientId,
                         CountryId = SelectedCountry.CountryId,
                         CityId = SelectedCity.CityId,
                         ServiceId = SelectedService.ServiceId,
@@ -205,7 +233,7 @@ namespace MyTrains.Core.ViewModel
                 await LoadCountries();
                 await LoadServices();
 
-                //SelectedBeneficiary = Beneficiaries[0];
+                SelectedRecipient = AllRecipients[0];
                 SelectedCountry = Countries[0];
                 SelectedCity = Cities[0];
                 SelectedService = Services[0];
