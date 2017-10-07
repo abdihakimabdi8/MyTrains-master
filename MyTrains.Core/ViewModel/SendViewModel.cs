@@ -273,6 +273,10 @@ namespace MyTrains.Core.ViewModel
         // but in this example, we simply wait for the thread to complete.
         public void Init()
         {
+           
+        }
+        public void Init(Send send = null)
+        {
             Task<List<Recipient>> result = Mvx.Resolve<RecipientRepository>().GetAllRecipients();
             result.Wait();
             AllRecipients = result.Result;
@@ -282,6 +286,8 @@ namespace MyTrains.Core.ViewModel
 
             SendContentTitle = sendContentTitle;
             SendContentBody = sendContentBody;
+            _send = send == null ? new Send() : send;
+            RaiseAllPropertiesChanged();
         }
     }
 }
