@@ -33,7 +33,7 @@ namespace MyTrains.Core.ViewModel
             MenuItems.Add(new MenuItem
             {
                 Title = "Transfers",
-                ViewModelType = typeof(AllSendViewModel),
+                ViewModelType = typeof(AllSendsViewModel),
                 Option = MenuOption.AllSends,
                 IsSelected = false
             });

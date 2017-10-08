@@ -14,7 +14,7 @@ namespace MyTrains.Droid.Views
 {
     [MvxFragment(typeof(MainViewModel), Resource.Id.content_frame, true)]
     [Register("mytrains.droid.views.AllSendsView")]
-    public class AllSendsView : MvxFragment<AllSendViewModel>
+    public class AllSendsView : MvxFragment<AllSendsViewModel>
     {
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
