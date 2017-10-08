@@ -26,12 +26,12 @@ namespace MyTrains.Core.ViewModel
         // This is another place that could be improved.
         // We are using the async capabilities built in to SQLite-Net,
         // but in this example, we simply wait for the thread to complete.
-        public Task<List<Send>> GetAllSends(SQLiteAsyncConnection conn, Send send)
-        {
-            return conn.QueryAsync<Send>("select * from Valuation where StockId = ?", send.RecipientId);
-            //return conn.Table<Send>().ToListAsync();
+        //public Task<List<Send>> GetAllSends(SQLiteAsyncConnection conn, Send send)
+        //{
+        //    return conn.QueryAsync<Send>("select * from Valuation where StockId = ?", send.RecipientId);
+        //    //return conn.Table<Send>().ToListAsync();
 
-        }
+        //}
 
         public void Init(SQLiteAsyncConnection conn, Send send)
         {

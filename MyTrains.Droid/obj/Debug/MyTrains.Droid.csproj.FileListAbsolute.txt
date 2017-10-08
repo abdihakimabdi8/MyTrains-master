@@ -484,6 +484,7 @@ C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\R.cs.flag
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\uploadflags.txt
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\allsendsview.xml
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\res\layout\listitemsend.xml
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Core.dll.mdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Localization.dll.mdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\bin\Debug\MyTrains.Droid.dll.mdb

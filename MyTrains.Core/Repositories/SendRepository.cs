@@ -9,27 +9,14 @@ namespace MyTrains.Core
     public class SendRepository
     {
         private readonly SQLiteAsyncConnection conn;
-
-        //private readonly SQLiteAsyncConnection conn;
-
         public string StatusMessage { get; set; }
-
-        //public SQLiteAsyncConnection Conn => conn;
 
         public SendRepository(string dbPath)
         {
-            //    conn = new SQLiteAsyncConnection(dbPath);
-            //    conn.CreateTableAsync<Send>().Wait();
-            //    conn.CreateTableAsync<Recipient>().Wait();
             conn = new SQLiteAsyncConnection(dbPath);
             conn.CreateTableAsync<Send>().Wait();
             conn.CreateTableAsync<Recipient>().Wait();
         }
-
-        //public SendRepository(SQLiteAsyncConnection conn)
-        //{
-        //    this.conn = conn;
-        //}
 
         public async Task CreateSend(Send send)
         {
@@ -49,16 +36,10 @@ namespace MyTrains.Core
             }
         }
 
-        //public Task<List<Send>> GetAllSends(SQLiteAsyncConnection conn, Send send)
-        //{
-        //    return conn.QueryAsync<Send>("select * from Valuation where StockId = ?", send.RecipientId);
-        //    //return conn.Table<Send>().ToListAsync();
-
-        //}
         public Task<List<Send>> GetAllSends()
         {
             // Return a list of transfers saved to the Send table in the database.
-            //return conn.QueryAsync<Send>("select * from Valuation where StockId = ?", recipient.RecipeintId);
+            //return conn.QueryAsync<Send>("select * from here StockId = ?", recipient.RecipeintId);
             return conn.Table<Send>().ToListAsync();
             //}
         }

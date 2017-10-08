@@ -43,6 +43,6 @@ namespace MyTrains.Core.Models
         //public bool IsValid()
         //{
         //    return (!String.IsNullOrWhiteSpace(Recipient) && !String.IsNullOrWhiteSpace(Country) && !String.IsNullOrWhiteSpace(City) && !String.IsNullOrWhiteSpace(Service));
-       // }
+        // }
     }
 }

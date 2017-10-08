@@ -29,4 +29,3 @@ C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTr
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\nl-BE\MyTrains.Localization.resources.dll
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.dll
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.pdb
-C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.csprojResolveAssemblyReference.cache

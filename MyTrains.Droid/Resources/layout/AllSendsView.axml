@@ -13,6 +13,6 @@
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_gravity="left|start"
-      local:MvxItemTemplate="@layout/listitemtransfer"
+      local:MvxItemTemplate="@layout/listitemsend"
       local:MvxBind="ItemsSource AllSends" />
 </linearlayout>
