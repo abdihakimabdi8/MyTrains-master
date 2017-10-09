@@ -171,7 +171,11 @@ namespace MyTrains.Core.ViewModel
                     _send.CountryId = SelectedCountry.CountryId;
                     _send.CityId = SelectedCity.CityId;
                     _send.ServiceId = SelectedService.ServiceId;
-                    Mvx.Resolve<SendRepository>().CreateSend(_send, SelectedRecipient.RecipientId, SelectedCountry.CountryId, SelectedCity.CityId, SelectedService.ServiceId).Wait();
+                    _send.RecipientName = SelectedRecipient.RecipientName;
+                    _send.CountryName = SelectedCountry.CountryName;
+                    _send.CityName = SelectedCity.CityName;
+                    _send.ServiceName = SelectedService.ServiceName;
+                    Mvx.Resolve<SendRepository>().CreateSend(_send).Wait();
                  Close(this);
                 });
             }

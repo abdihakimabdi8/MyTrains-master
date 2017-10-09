@@ -26,10 +26,10 @@ namespace MyTrains.Core.Models
         [Indexed]
         public int ServiceId { get; set; }
 
-        //public Recipient Recipient { get; set; }
-        //public Country Country { get; set; }
-        //public City City { get; set; }
-        //public Service Service { get; set; }
+        public string RecipientName { get; set; }
+        public string CountryName { get; set; }
+        public string CityName { get; set; }
+        public string ServiceName { get; set; }
 
         //public Send()
         //{

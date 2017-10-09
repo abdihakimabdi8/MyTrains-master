@@ -18,7 +18,7 @@ namespace MyTrains.Core
             conn.CreateTableAsync<Recipient>().Wait();
         }
 
-        public async Task CreateSend(Send send, int recpientId, int countryId, int cityId, int serviceId)
+        public async Task CreateSend(Send send)
         {
             try
             {
