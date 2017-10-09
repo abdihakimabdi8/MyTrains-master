@@ -29,6 +29,7 @@ namespace MyTrains.Core.ViewModel
         private Country _selectedCountry;
         private City _selectedCity;
         private Service _selectedService;
+
         private ObservableCollection<Beneficiary> _beneficiaries;
         private ObservableCollection<Country> _countries;
         private ObservableCollection<City> _cities;
@@ -38,18 +39,6 @@ namespace MyTrains.Core.ViewModel
         private string _sendContentTitle;
         private string _sendContentBody;
 
-        public Beneficiary SelectedBeneficiary
-        {
-            get { return _selectedBeneficiary; }
-            set
-            {
-                if (_selectedBeneficiary != value)
-                {
-                    _selectedBeneficiary = value;
-                    RaisePropertyChanged(() => SelectedBeneficiary);
-                }
-            }
-        }
         public Recipient SelectedRecipient
         {
             get { return _selectedRecipient; }
@@ -86,6 +75,7 @@ namespace MyTrains.Core.ViewModel
                 }
             }
         }
+
         public City SelectedCity
         {
             get { return _selectedCity; }
@@ -98,7 +88,6 @@ namespace MyTrains.Core.ViewModel
                 }
             }
         }
-
         public string SendContentTitle
         {
             get { return _sendContentTitle; }
@@ -162,25 +151,53 @@ namespace MyTrains.Core.ViewModel
                 RaisePropertyChanged(() => PossibleTimes);
             }
         }
+
+        public object RecipientName { get; private set; }
+        public string CountryName { get; private set; }
+        public string CityName { get; private set; }
+        public string ServiceName { get; private set; }
+
         Send _send;
 
 
-        public ICommand SaveSend
+        public IMvxCommand SaveSend
         {
             get
             {
-                return new MvxCommand(() => {
-                    //if (_s.IsValid())
-                    //{
-                        // Here we are simply waiting for the thread to complete.
-                        // In a production app, this would be the opportunity to
-                        // provide UI updates while the save thread completes.
-                        Mvx.Resolve<SendRepository>().CreateSend(_send).Wait();
-                        Close(this);
-                    //}
+                return new MvxCommand(() =>
+                {
+
+                    _send.RecipientId = SelectedRecipient.RecipientId;
+                    _send.CountryId = SelectedCountry.CountryId;
+                    _send.CityId = SelectedCity.CityId;
+                    _send.ServiceId = SelectedService.ServiceId;
+                    Mvx.Resolve<SendRepository>().CreateSend(_send, SelectedRecipient.RecipientId, SelectedCountry.CountryId, SelectedCity.CityId, SelectedService.ServiceId).Wait();
+                 Close(this);
                 });
             }
         }
+        //public MvxCommand SendCommand
+        //{
+        //    get
+        //    {
+        //        return new MvxCommand(async () =>
+        //        {
+        //            Mvx.Resolve<SendRepository>().CreateSend(_send).Wait();
+        //            Close(this);
+        //            (_userDataService.GetActiveUser().UserId, SelectedRemittance.RemittanceId, SelectedRemittance.BeneficiaryId, SelectedRemittance.CountryId, SelectedRemittance.CityId, SelectedRemittance.ServiceId);
+
+        //            //Hardcoded text, better with resx translations
+        //            //await
+        //            //    _dialogService.ShowAlertAsync("This journey is now in your Saved Journeys!", "My Trains says...", "OK");
+
+        //            await
+        //                _dialogService.ShowAlertAsync
+        //                (TextSource.GetText("AddedToSavedRemittancesMessage"),
+        //                 TextSource.GetText("AddedToSavedRemittancesTitle"),
+        //                 TextSource.GetText("AddedToSavedRemittancesButton"));
+        //        });
+        //    }
+        //}
         public IMvxCommand SendCommand
         {
             get
@@ -233,11 +250,17 @@ namespace MyTrains.Core.ViewModel
                 await LoadCountries();
                 await LoadServices();
 
-                SelectedRecipient = AllRecipients[0];
-                SelectedCountry = Countries[0];
-                SelectedCity = Cities[0];
-                SelectedService = Services[0];
-                PossibleTimes = new ObservableCollection<string>();
+                //SelectedRecipient = AllRecipients[0];
+                //SelectedCountry = Countries[0];
+                //SelectedCity = Cities[0];
+                //SelectedService = Services[0];
+                //PossibleTimes = new ObservableCollection<string>();
+
+                //RecipientName = SelectedRecipient.RecipientName;
+                //CountryName = SelectedCountry.CountryName;
+                //CityName = SelectedCity.CityName;
+                //ServiceName = SelectedService.ServiceName;
+
             }
             else
             {
@@ -267,6 +290,7 @@ namespace MyTrains.Core.ViewModel
                 return new MvxCommand(() => Close(this));
             }
         }
+
 
         // This is another place that could be improved.
         // We are using the async capabilities built in to SQLite-Net,

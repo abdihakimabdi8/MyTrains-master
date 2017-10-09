@@ -53,7 +53,7 @@
           android:text="Price"
           android:textColor="@color/primary"
           android:textSize="17dp"
-          local:MvxBind="Text Send.CountryId" />
+          local:MvxBind="Text CountryId" />
     </LinearLayout>
     <LinearLayout
       android:id="@+id/titleLinearLayout"
@@ -75,7 +75,7 @@
         android:text="City"
         android:textColor="@color/primary"
         android:textSize="17dp"
-        local:MvxBind="Text Send.CityId" />
+        local:MvxBind="Text CityId" />
     </LinearLayout>
     <LinearLayout
       android:id="@+id/titleLinearLayout"
@@ -97,7 +97,7 @@
         android:text="Service"
         android:textColor="@color/primary"
         android:textSize="17dp"
-        local:MvxBind="Text Send.ServiceId" />
+        local:MvxBind="Text ServiceId" />
     </LinearLayout>
     <View
         android:layout_width="match_parent"
