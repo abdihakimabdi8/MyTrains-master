@@ -11,7 +11,10 @@
 	<color name="normal_text">#373B49</color>
 	<color name="lightGray">#CCCCCC</color>
 	<color name="transparent">#00000000</color>
-  
+  <color name="primary">#53ba9d</color>
+  <color name="primaryDark">#42947d</color>
+  <color name="accent">#8de2d5</color>
+  <color name="windowBackground">#ffffff</color>
   <!--<color name="material_blue_500">#2196F3</color>
   <color name="material_blue_700">#1976D2</color>
   <color name="material_green_A200">#69F0AE</color>-->

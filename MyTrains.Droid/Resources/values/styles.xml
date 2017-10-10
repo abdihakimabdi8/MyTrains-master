@@ -12,4 +12,16 @@
 		<item name="android:fontFamily">sans-serif-light</item>
    
   </style>
+  <style name="XamarinCRMTheme.Base" parent="@android:style/Theme.Holo.Light">
+  </style>
+  <style name="XamarinCRMTheme" parent="XamarinCRMTheme.Base">
+    <item name="android:actionBarStyle">@style/XamarinCRMTheme.ActionBarStyle</item>
+  </style>
+  <style name="XamarinCRMTheme.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <item name="android:titleTextStyle">@style/XamarinCRMTheme.ActionBar.TitleTextStyle</item>
+    <item name="android:background">@color/primary</item>
+  </style>
+  <style name="XamarinCRMTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
 </resources>

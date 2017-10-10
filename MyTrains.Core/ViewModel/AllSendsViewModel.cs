@@ -35,11 +35,11 @@ namespace MyTrains.Core.ViewModel
 
         public void Init(SQLiteAsyncConnection conn, Send send)
         {
-            Task<List<Send>> result = Mvx.Resolve<SendRepository>().GetAllSends();
-            result.Wait();
-            AllSends = result.Result;
-
-
+                Task<List<Send>> result = Mvx.Resolve<SendRepository>().GetAllSends();
+                result.Wait();
+                AllSends = result.Result;
+               
+                
         }
     }
 }

@@ -10,7 +10,7 @@ namespace MyTrains.Core
     {
         private readonly SQLiteAsyncConnection conn;
         public string StatusMessage { get; set; }
-
+        Send  send;
         public SendRepository(string dbPath)
         {
             conn = new SQLiteAsyncConnection(dbPath);
@@ -40,8 +40,7 @@ namespace MyTrains.Core
         {
             // Return a list of transfers saved to the Send table in the database.
             //return conn.QueryAsync<Send>("select * from here StockId = ?", recipient.RecipeintId);
-            return conn.Table<Send>().ToListAsync();
-            //}
+             return conn.Table<Send>().ToListAsync();
         }
     }
 }
