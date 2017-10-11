@@ -37,13 +37,7 @@ namespace MyTrains.Core.ViewModel
                 Option = MenuOption.AllSends,
                 IsSelected = false
             });
-            MenuItems.Add(new MenuItem
-            {
-                Title = "Transactions",
-                ViewModelType = typeof(AllTransfersViewModel),
-                Option = MenuOption.AllTransfers,
-                IsSelected = false
-            });
+
             MenuItems.Add(new MenuItem
             {
                 Title = "Add Recipient",

@@ -31,12 +31,12 @@ namespace MyTrains.Droid.Views
             (this.Activity as MainActivity).SetCustomTitle("Sent Remittances");
         }
 
-        public override void OnStart()
-        {
-            base.OnStart();
+        //public override void OnStart()
+        //{
+        //    base.OnStart();
 
-            SetupCalendar();
-        }
+        //    SetupCalendar();
+        //}
 
         private void SetupCalendar()
         {

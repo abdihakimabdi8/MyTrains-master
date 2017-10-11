@@ -3,4 +3,5 @@
   <dimen name="drawer_width">240dp</dimen>
 	<dimen name="default_horizontal_padding">16dp</dimen>
 	<dimen name="default_vertical_padding">16dp</dimen>
+     <dimen name="element_margin_medium">15dp</dimen>
 </resources>

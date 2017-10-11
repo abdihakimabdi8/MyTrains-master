@@ -38,8 +38,6 @@ namespace MyTrains.Core.ViewModel
                 Task<List<Send>> result = Mvx.Resolve<SendRepository>().GetAllSends();
                 result.Wait();
                 AllSends = result.Result;
-               
-                
         }
     }
 }

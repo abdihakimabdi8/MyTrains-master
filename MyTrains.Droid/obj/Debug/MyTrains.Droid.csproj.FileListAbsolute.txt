@@ -497,3 +497,4 @@ C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\ass
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\MyTrains.Localization.dll.mdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\Plugin.Connectivity.Abstractions.dll.mdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\android\assets\Plugin.Connectivity.dll.mdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Droid\obj\Debug\res\drawable\app_icon.png

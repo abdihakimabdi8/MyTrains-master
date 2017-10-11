@@ -27,5 +27,11 @@ namespace MyTrains.Droid.Views
             base.OnViewCreated(view, savedInstanceState);
             (this.Activity as MainActivity).SetCustomTitle("Send Money");
         }
+        public override void OnStart()
+        {
+            base.OnStart();
+
+            //SetupCalendar();
+        }
     }
 }
