@@ -37,7 +37,7 @@
             android:text="Saafi Money" />
     </LinearLayout>
 </RelativeLayout>
-    <Mvx.MvxListView
+     <Mvx.MvxListView
         android:id="@+id/navigation_drawer_list"
         local:MvxItemTemplate="@layout/item_menu"
         local:MvxBind="ItemsSource MenuItems; ItemClick MenuItemSelectCommand"
@@ -48,4 +48,15 @@
         android:layout_height="match_parent"
         android:layout_gravity="left|start"
         android:background="#FFFFFF" />
+  <Mvx.MvxListView
+       android:id="@+id/navigation_drawer_list"
+       local:MvxItemTemplate="@layout/item_menu"
+       local:menu="@menu/toolbar_menu"
+       android:divider="@null"
+       android:scrollbars="vertical"
+       android:choiceMode="singleChoice"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_gravity="left|start"
+       android:background="#FFFFFF" />
 </LinearLayout>

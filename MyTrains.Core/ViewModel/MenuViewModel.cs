@@ -26,39 +26,44 @@ namespace MyTrains.Core.ViewModel
             MenuItems.Add(new MenuItem
             {
                 Title = "Send Money",
+                Icon = "send",
                 ViewModelType = typeof(SendViewModel),
                 Option = MenuOption.Send,
-                IsSelected = false
+                IsSelected = true
             });
             MenuItems.Add(new MenuItem
             {
                 Title = "Transfers",
+                Icon = "allsends",
                 ViewModelType = typeof(AllSendsViewModel),
                 Option = MenuOption.AllSends,
-                IsSelected = false
+                IsSelected = true
             });
 
             MenuItems.Add(new MenuItem
             {
                 Title = "Add Recipient",
+                Icon = "allsends.png",
                 ViewModelType = typeof(RecipientViewModel),
                 Option = MenuOption.CreateRecipient,
-                IsSelected = false
+                IsSelected = true
             });
             MenuItems.Add(new MenuItem
             {
                 Title = "Recipients",
+                Icon = "allsends",
                 ViewModelType = typeof(AllRecipientsViewModel),
                 Option = MenuOption.AllRecipients,
-                IsSelected = false
+                IsSelected = true
             });
 
             MenuItems.Add(new MenuItem
             {
                 Title = "Settings",
+                Icon = "Settings",
                 ViewModelType = typeof(SettingsViewModel),
                 Option = MenuOption.Settings,
-                IsSelected = false
+                IsSelected = true
             });
            
         }

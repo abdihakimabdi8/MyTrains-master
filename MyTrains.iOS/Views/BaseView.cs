@@ -18,7 +18,7 @@ namespace MyTrains.iOS.Views
             var stringAttributes = new UIStringAttributes ();
             stringAttributes.Font = UIFont.SystemFontOfSize (16);
             stringAttributes.ForegroundColor = UIColor.FromRGB (255, 255, 255);
-            NavigationController.NavigationBar.BarTintColor = MyTrainsColors.DarkColor;
+            NavigationController.NavigationBar.BarTintColor = SaafiColors.DarkColor;
             NavigationController.NavigationBar.TintColor = UIColor.White;
             NavigationController.NavigationBar.TitleTextAttributes = stringAttributes;
 

@@ -5,12 +5,14 @@
     android:layout_height="match_parent"
     android:paddingLeft="16dp"
     android:orientation="horizontal">
-<!--<Mvx.MvxImageView
+<Mvx.MvxImageView
       local:MvxBind="DrawableId MenuOptionToIconAssetName(Option); TintColor MenuItemToTextColor(IsSelected)"
       android:layout_width="42dp"
       android:scaleType="fitCenter"
       android:layout_height="wrap_content"
-      android:layout_gravity="center_vertical" />-->
+      android:layout_gravity="center_vertical" 
+    />
+<!--   local:MvxBind="DrawableId MenuOptionToIconAssetName(Option)" ; TintColor MenuItemToTextColor(IsSelected)-->
     <TextView
         android:id="@android:id/text1"
         android:layout_width="wrap_content"
@@ -21,6 +23,6 @@
         android:paddingRight="16dp"
         android:singleLine="true"
         android:minHeight="?android:attr/listPreferredItemHeight"
-        local:MvxBind="Text Title" />
+        local:MvxBind="Text Title; TextColor MenuItemToTextColor(IsSelected)" />
 <!--local:MvxBind="Text Title; TextColor MenuItemToTextColor(IsSelected)"-->
 </LinearLayout>

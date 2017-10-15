@@ -9,6 +9,7 @@ namespace MyTrains.Core.Model.App
         private bool _isSelected;
 
         public string Title { get; set; }
+        public string Icon { get; set; }
         public Type ViewModelType { get; set; }
         public MenuOption Option { get; set; }
         public bool IsSelected

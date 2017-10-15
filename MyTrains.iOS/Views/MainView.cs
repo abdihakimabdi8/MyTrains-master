@@ -42,8 +42,12 @@ namespace MyTrains.iOS.Views
         {
             var viewControllers = new UIViewController[]
             {
-                CreateTab("Search", "ic-search-", ViewModel.SearchJourneyViewModel),
-                CreateTab("Saved journeys", "ic-saved-", ViewModel.SavedJourneysViewModel),
+                CreateTab("Send", "ic-send-", ViewModel.SendViewModel),
+                CreateTab("Transactions", "ic-transactions-", ViewModel.AllSendsViewModel),
+
+                CreateTab("Recipients", "ic-recipients-", ViewModel.AllRecipientsViewModel),
+                CreateTab("Add Recipients", "ic-add-", ViewModel.RecipientViewModel),
+
                 CreateTab("Settings", "ic-settings-", ViewModel.SettingsViewModel)
             };
 
@@ -88,11 +92,11 @@ namespace MyTrains.iOS.Views
             var font = UIFont.FromName("Helvetica", 10);
 
             viewController.TabBarItem.SetTitleTextAttributes(
-                new UITextAttributes { TextColor = MyTrainsColors.DarkTextColor, Font = font },
+                new UITextAttributes { TextColor = SaafiColors.DarkTextColor, Font = font },
                 UIControlState.Normal);
 
             viewController.TabBarItem.SetTitleTextAttributes(
-                new UITextAttributes { TextColor = MyTrainsColors.AccentColor, Font = font },
+                new UITextAttributes { TextColor = SaafiColors.AccentColor, Font = font },
                 UIControlState.Selected);
 
             _tabsCreatedSoFar++;

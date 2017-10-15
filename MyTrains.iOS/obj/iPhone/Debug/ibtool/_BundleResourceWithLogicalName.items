@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\LaunchScreen.nib">
+      <LogicalName>LaunchScreen.nib</LogicalName>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\36-view-37.nib">
+      <LogicalName>Storyboard.storyboardc/36-view-37.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\56-view-57.nib">
+      <LogicalName>Storyboard.storyboardc/56-view-57.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\63-view-64.nib">
+      <LogicalName>Storyboard.storyboardc/63-view-64.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\70-view-71.nib">
+      <LogicalName>Storyboard.storyboardc/70-view-71.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\77-view-78.nib">
+      <LogicalName>Storyboard.storyboardc/77-view-78.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\Info.plist">
+      <LogicalName>Storyboard.storyboardc/Info.plist</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\JourneyDetailView.nib">
+      <LogicalName>Storyboard.storyboardc/JourneyDetailView.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\MainView.nib">
+      <LogicalName>Storyboard.storyboardc/MainView.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\SavedJourneysView.nib">
+      <LogicalName>Storyboard.storyboardc/SavedJourneysView.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\SearchJourneyView.nib">
+      <LogicalName>Storyboard.storyboardc/SearchJourneyView.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\SearchResultView.nib">
+      <LogicalName>Storyboard.storyboardc/SearchResultView.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj\iPhone\Debug\ibtool\Storyboard.storyboardc\SettingsView.nib">
+      <LogicalName>Storyboard.storyboardc/SettingsView.nib</LogicalName>
+      <InterfaceDefinition>Storyboard.storyboard</InterfaceDefinition>
+      <Optimize>false</Optimize>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>

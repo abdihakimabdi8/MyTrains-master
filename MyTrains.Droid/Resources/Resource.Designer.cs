@@ -2117,67 +2117,79 @@ namespace MyTrains.Droid
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int app_icon = 2130837579;
+			public const int allsends = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int arrow_down = 2130837580;
+			public const int AllTansfers = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int arrow_left = 2130837581;
+			public const int app_icon = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int arrow_right = 2130837582;
+			public const int arrow_down = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int arrow_up = 2130837583;
+			public const int arrow_left = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int border_button = 2130837584;
+			public const int arrow_right = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int btn_disabled = 2130837585;
+			public const int arrow_up = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int btn_enabled = 2130837586;
+			public const int border_button = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int button_selector = 2130837587;
+			public const int btn_disabled = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int calendar_bg_selector = 2130837588;
+			public const int btn_enabled = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int calendar_border = 2130837589;
+			public const int button_selector = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_fab_background = 2130837590;
+			public const int calendar_bg_selector = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_snackbar_background = 2130837591;
+			public const int calendar_border = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int drawer_shadow_dark = 2130837592;
+			public const int design_fab_background = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int drawer_shadow_light = 2130837593;
-			
-			// aapt resource value: 0x7f02005f
-			public const int notification_template_icon_bg = 2130837599;
+			public const int design_snackbar_background = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int scaledBackground = 2130837594;
+			public const int drawer_shadow_dark = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int secondary_button_selector = 2130837595;
+			public const int drawer_shadow_light = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int spinner_border = 2130837596;
+			public const int ic_allsends = 2130837596;
+			
+			// aapt resource value: 0x7f020063
+			public const int notification_template_icon_bg = 2130837603;
 			
 			// aapt resource value: 0x7f02005d
-			public const int splash = 2130837597;
+			public const int scaledBackground = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int toolbar_dropshadow = 2130837598;
+			public const int secondary_button_selector = 2130837598;
+			
+			// aapt resource value: 0x7f02005f
+			public const int settings = 2130837599;
+			
+			// aapt resource value: 0x7f020060
+			public const int spinner_border = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int splash = 2130837601;
+			
+			// aapt resource value: 0x7f020062
+			public const int toolbar_dropshadow = 2130837602;
 			
 			static Drawable()
 			{
@@ -2557,6 +2569,24 @@ namespace MyTrains.Droid
 			
 			// aapt resource value: 0x7f060019
 			public const int multiply = 2131099673;
+			
+			// aapt resource value: 0x7f0600c6
+			public const int nav_footer = 2131099846;
+			
+			// aapt resource value: 0x7f0600c3
+			public const int nav_home = 2131099843;
+			
+			// aapt resource value: 0x7f0600c2
+			public const int nav_items = 2131099842;
+			
+			// aapt resource value: 0x7f0600c5
+			public const int nav_recyclerview = 2131099845;
+			
+			// aapt resource value: 0x7f0600c7
+			public const int nav_settings = 2131099847;
+			
+			// aapt resource value: 0x7f0600c4
+			public const int nav_viewpager = 2131099844;
 			
 			// aapt resource value: 0x7f060083
 			public const int navigation_drawer_list = 2131099779;
@@ -3094,6 +3124,22 @@ namespace MyTrains.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0c0000
+			public const int toolbar_menu = 2131492864;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

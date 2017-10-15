@@ -17,8 +17,8 @@ namespace MyTrains.iOS.Controls
             {
                 LeftArrow = UIImage.FromBundle("arrow-left.png"),
                 RightArrow = UIImage.FromBundle("arrow-right.png"),
-                SelectionColor = MyTrainsColors.AccentColor,
-                TodayCircleColor = MyTrainsColors.AccentColor,
+                SelectionColor = SaafiColors.AccentColor,
+                TodayCircleColor = SaafiColors.AccentColor,
                 MonthFormatString = "MMMM yyyy",
                 SundayFirst = true,
                 DateSelected = date =>

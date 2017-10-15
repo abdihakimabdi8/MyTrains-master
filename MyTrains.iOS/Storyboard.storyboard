@@ -24,7 +24,7 @@
         <!--Search Journey View-->
         <scene sceneID="35">
             <objects>
-                <viewController storyboardIdentifier="SearchJourneyView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="36" customClass="SearchJourneyView" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SendView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="36" customClass="SendView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="33"/>
                         <viewControllerLayoutGuide type="bottom" id="34"/>
@@ -90,11 +90,11 @@
                     </view>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="calendarContainerView" destination="87" id="name-outlet-87"/>
-                        <outlet property="depatureTimeTextField" destination="90" id="name-outlet-90"/>
-                        <outlet property="fromCityTextField" destination="81" id="name-outlet-81"/>
-                        <outlet property="searchButton" destination="93" id="name-outlet-93"/>
-                        <outlet property="toCityTextField" destination="84" id="name-outlet-84"/>
+                        <outlet property="serviceTextField" destination="90" id="name-outlet-90"/>
+                        <outlet property="cityTextField" destination="81" id="name-outlet-81"/>
+                        <outlet property="countryTextField" destination="81" id="name-outlet-81"/>
+                        <outlet property="sendButton" destination="93" id="name-outlet-93"/>
+                        <outlet property="serviceTextField" destination="84" id="name-outlet-84"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="38" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -388,10 +388,10 @@
             </objects>
             <point key="canvasLocation" x="624" y="-395"/>
         </scene>
-        <!--Saved Journeys View-->
+        <!--AllRecipients View-->
         <scene sceneID="69">
             <objects>
-                <viewController storyboardIdentifier="SavedJourneysView" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="70" customClass="SavedJourneysView" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AllRecipientsView" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="70" customClass="AllRecipientsView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="67"/>
                         <viewControllerLayoutGuide type="bottom" id="68"/>
@@ -411,14 +411,14 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="SavedJourneyCell" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SavedJourneyCell" id="98" customClass="SavedJourneyCell">
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="AllRecipientsCell" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AllRecipientsCell" id="98" customClass="AllRecipientsCell">
                                         <rect key="frame" x="0.0" y="1" width="600" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="98" id="95b-ng-2tj">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="64.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="01-01-2016" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="224">
+                                                <!--<label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="01-01-2016" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="224">
                                                     <rect key="frame" x="15" y="12" width="88" height="21"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
@@ -445,7 +445,7 @@
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                     <color key="textColor" red="0.21568627450980393" green="0.23137254901960785" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
-                                                </label>
+                                                </label>-->
                                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="237">
                                                     <rect key="frame" x="577" y="22" width="7.5" height="21"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -484,11 +484,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="DepartureDateLabel" destination="224" id="name-outlet-224"/>
-                                            <outlet property="DepartureTimeLabel" destination="225" id="name-outlet-225"/>
-                                            <outlet property="FromCityLabel" destination="227" id="name-outlet-227"/>
-                                            <outlet property="NumberOfTicketsLabel" destination="237" id="name-outlet-237"/>
-                                            <outlet property="ToCityLabel" destination="228" id="name-outlet-228"/>
+                                            <outlet property="RecipientNameLabel" destination="224" id="name-outlet-224"/>
+                                            <outlet property="RecipientPhoneNumberLabel" destination="225" id="name-outlet-225"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -504,7 +501,126 @@
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <outlet property="savedJourneyTableView" destination="97" id="name-outlet-97"/>
+                        <outlet property="allsendsTableView" destination="97" id="name-outlet-97"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="72" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-117" y="327"/>
+        </scene>
+        <scene sceneID="69">
+            <objects>
+                <viewController storyboardIdentifier="AllRecipientsView" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="70" customClass="AllRecipientsView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="67"/>
+                        <viewControllerLayoutGuide type="bottom" id="68"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="71">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="65" sectionHeaderHeight="1" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="97">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.023529411760000001" green="0.4549019608" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <view key="tableFooterView" contentMode="scaleToFill" id="Sqo-PE-h1Y">
+                                    <rect key="frame" x="0.0" y="66" width="600" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="AllSRecipientsCell" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AllSRecipientsCell" id="98" customClass="AllSRecipientsCell">
+                                        <rect key="frame" x="0.0" y="1" width="600" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="98" id="95b-ng-2tj">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="64.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+<!--                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="01-01-2016" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="224">
+                                                    <rect key="frame" x="15" y="12" width="88" height="21"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                                    <color key="textColor" red="0.023529411760000001" green="0.4549019608" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="20:00" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="225">
+                                                    <rect key="frame" x="113" y="12" width="45" height="21"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                                    <color key="textColor" red="0.023529411760000001" green="0.4549019608" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="London" lineBreakMode="tailTruncation" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="227">
+                                                    <rect key="frame" x="15" y="33" width="51" height="18"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                    <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>-->
+<!--                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Manchester" lineBreakMode="tailTruncation" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="228">
+                                                    <rect key="frame" x="93" y="33" width="80.5" height="18"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                    <color key="textColor" red="0.21568627450980393" green="0.23137254901960785" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>-->
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="237">
+                                                    <rect key="frame" x="577" y="22" width="7.5" height="21"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIq-vu-tUj">
+                                                    <rect key="frame" x="76" y="33" width="7" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                    <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gl-y1-mD3">
+                                                    <rect key="frame" x="558" y="22" width="9" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                                    <color key="textColor" red="0.14117647059999999" green="0.37647058820000001" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="225" firstAttribute="leading" secondItem="224" secondAttribute="trailing" constant="10" id="1GF-o8-gtl"/>
+                                                <constraint firstItem="227" firstAttribute="leading" secondItem="95b-ng-2tj" secondAttribute="leadingMargin" constant="7" id="3Un-pW-B6M"/>
+                                                <constraint firstItem="225" firstAttribute="centerY" secondItem="95b-ng-2tj" secondAttribute="centerY" constant="-10" id="DfB-zw-4J5"/>
+                                                <constraint firstItem="eIq-vu-tUj" firstAttribute="centerY" secondItem="95b-ng-2tj" secondAttribute="centerY" constant="10" id="EEd-cg-i8T"/>
+                                                <constraint firstItem="228" firstAttribute="centerY" secondItem="95b-ng-2tj" secondAttribute="centerY" constant="10" id="F8r-8u-9X4"/>
+                                                <constraint firstItem="237" firstAttribute="centerY" secondItem="95b-ng-2tj" secondAttribute="centerY" id="Yke-p4-q30"/>
+                                                <constraint firstItem="224" firstAttribute="centerY" secondItem="95b-ng-2tj" secondAttribute="centerY" constant="-10" id="Zaa-dC-5o7"/>
+                                                <constraint firstItem="7gl-y1-mD3" firstAttribute="centerY" secondItem="95b-ng-2tj" secondAttribute="centerY" id="dtf-QP-fHC"/>
+                                                <constraint firstItem="eIq-vu-tUj" firstAttribute="leading" secondItem="227" secondAttribute="trailing" constant="10" id="epa-j5-86U"/>
+                                                <constraint firstItem="228" firstAttribute="leading" secondItem="eIq-vu-tUj" secondAttribute="trailing" constant="10" id="iYn-FN-TzM"/>
+                                                <constraint firstItem="227" firstAttribute="centerY" secondItem="95b-ng-2tj" secondAttribute="centerY" constant="10" id="lf1-xu-0Ec"/>
+                                                <constraint firstItem="224" firstAttribute="leading" secondItem="95b-ng-2tj" secondAttribute="leadingMargin" constant="7" id="lo1-UF-1xP"/>
+                                                <constraint firstItem="237" firstAttribute="leading" secondItem="7gl-y1-mD3" secondAttribute="trailing" constant="10" id="san-dZ-fKm"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="237" secondAttribute="trailing" constant="7" id="uGm-Fi-n3x"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="RecipientNameLabel" destination="224" id="name-outlet-224"/>
+                                            <outlet property="RecipientPhoneNumberLabel" destination="225" id="name-outlet-225"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="97" firstAttribute="leading" secondItem="71" secondAttribute="leading" id="105"/>
+                            <constraint firstAttribute="trailing" secondItem="97" secondAttribute="trailing" id="106"/>
+                            <constraint firstItem="97" firstAttribute="bottom" secondItem="68" secondAttribute="top" id="108"/>
+                            <constraint firstItem="97" firstAttribute="top" secondItem="71" secondAttribute="topMargin" id="uvi-Ut-ox2"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="allsendsTableView" destination="97" id="name-outlet-97"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="72" userLabel="First Responder" sceneMemberID="firstResponder"/>

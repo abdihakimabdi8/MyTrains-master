@@ -15,6 +15,10 @@ namespace MyTrains.Core.ViewModel
         private readonly Lazy<PlatformViewModel> _platformViewModel;
         private readonly Lazy<SavedBeneficiariesViewModel> _savedBeneficiariesViewModel;
         private readonly Lazy<SendViewModel> _sendViewModel;
+        private readonly Lazy<AllSendsViewModel> _allSendsViewModel;
+        private readonly Lazy<AllRecipientsViewModel> _allRecipientsViewModel;
+        private readonly Lazy<RecipientViewModel> _recipientViewModel;
+
 
         public SendViewModel SendViewModel => _sendViewModel.Value;
 
@@ -25,6 +29,10 @@ namespace MyTrains.Core.ViewModel
 
         public SettingsViewModel SettingsViewModel => _settingsViewModel.Value;
         public PlatformViewModel PlatformViewModel => _platformViewModel.Value;
+        public AllSendsViewModel AllSendsViewModel => _allSendsViewModel.Value;
+        public AllRecipientsViewModel AllRecipientsViewModel => _allRecipientsViewModel.Value;
+        public RecipientViewModel RecipientViewModel => _recipientViewModel.Value;
+
 
         public MainViewModel()
         {
@@ -34,6 +42,10 @@ namespace MyTrains.Core.ViewModel
             _savedBeneficiariesViewModel = new Lazy<SavedBeneficiariesViewModel>(Mvx.IocConstruct<SavedBeneficiariesViewModel>);
             _platformViewModel = new Lazy<PlatformViewModel>(Mvx.IocConstruct<PlatformViewModel>);
             _settingsViewModel = new Lazy<SettingsViewModel>(Mvx.IocConstruct<SettingsViewModel>);
+            _allSendsViewModel = new Lazy<AllSendsViewModel>(Mvx.IocConstruct<AllSendsViewModel>);
+            _allRecipientsViewModel = new Lazy<AllRecipientsViewModel>(Mvx.IocConstruct<AllRecipientsViewModel>);
+            _recipientViewModel = new Lazy<RecipientViewModel>(Mvx.IocConstruct<RecipientViewModel>);
+
         }
 
         public void ShowMenu()

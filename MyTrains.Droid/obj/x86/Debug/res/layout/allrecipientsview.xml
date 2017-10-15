@@ -1,0 +1,13 @@
+<linearlayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:local="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><Mvx.MvxListView android:id="@+id/beneficiariesresults_list" android:divider="@null" android:scrollbars="vertical" android:padding="@dimen/default_horizontal_padding" android:choiceMode="singleChoice" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_gravity="left|start" local:MvxItemTemplate="@layout/listitemrecipient" local:MvxBind="ItemsSource AllRecipients" /></linearlayout><!--
+<?xml version="1.0" encoding="utf-8" ?>
+<linearlayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Mvx.MvxListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        local:MvxBind="ItemsSource AllRecipients"
+        local:MvxItemTemplate="@layout/listitemrecipient" />
+</linearlayout>-->

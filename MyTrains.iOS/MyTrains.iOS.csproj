@@ -134,20 +134,24 @@
     <Compile Include="Controls\CalendarHelper.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="SavedJourneyCell.cs" />
-    <Compile Include="SavedJourneyCell.designer.cs">
-      <DependentUpon>SavedJourneyCell.cs</DependentUpon>
+    <Compile Include="AllRecipientsCell.cs" />
+    <Compile Include="AllRecipientsCell.designer.cs">
+      <DependentUpon>AllRecipientsCell.cs</DependentUpon>
     </Compile>
-    <Compile Include="SearchResultsCell.cs" />
-    <Compile Include="SearchResultsCell.designer.cs">
-      <DependentUpon>SearchResultsCell.cs</DependentUpon>
+    <Compile Include="AllSendsCell.cs" />
+    <Compile Include="AllSendsCell.designer.cs">
+      <DependentUpon>AllSendsCell.cs</DependentUpon>
     </Compile>
     <Compile Include="Services\DialogService.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="StoryBoardContainer.cs" />
-    <Compile Include="TableViewSources\SavedJourneysTableViewSource.cs" />
-    <Compile Include="TableViewSources\SearchResultsTableViewSource.cs" />
-    <Compile Include="Utility\MyTrainsColors.cs" />
+    <Compile Include="TableViewSources\AllRecipientsTableViewSource.cs" />
+    <Compile Include="TableViewSources\AllSendsTableViewSource.cs" />
+    <Compile Include="Utility\SaafiColors.cs" />
+    <Compile Include="Views\AllRecipientsView .cs" />
+    <Compile Include="Views\AllRecipientsView .designer.cs">
+      <DependentUpon>AllRecipientsView .cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\JourneyDetailView.cs" />
     <Compile Include="Views\JourneyDetailView.designer.cs">
@@ -157,13 +161,17 @@
     <Compile Include="Views\MainView.designer.cs">
       <DependentUpon>MainView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\SavedJourneysView.cs" />
-    <Compile Include="Views\SavedJourneysView.designer.cs">
-      <DependentUpon>SavedJourneysView.cs</DependentUpon>
+    <Compile Include="Views\AllSendsView.cs" />
+    <Compile Include="Views\AllSendsView.designer.cs">
+      <DependentUpon>AllSendsView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\SearchJourneyView.cs" />
-    <Compile Include="Views\SearchJourneyView.designer.cs">
-      <DependentUpon>SearchJourneyView.cs</DependentUpon>
+    <Compile Include="Views\RecipientView.cs" />
+    <Compile Include="Views\RecipientView.designer.cs">
+      <DependentUpon>RecipientView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SendView.cs" />
+    <Compile Include="Views\SendView.designer.cs">
+      <DependentUpon>SendView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\SearchResultView.cs" />
     <Compile Include="Views\SearchResultView.designer.cs">

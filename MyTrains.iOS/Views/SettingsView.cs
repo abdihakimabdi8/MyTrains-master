@@ -60,7 +60,7 @@ namespace MyTrains.iOS.Views
 
             textField.InputAccessoryView = toolbar;
 
-            textField.Layer.BorderColor = MyTrainsColors.BorderColor.CGColor;
+            textField.Layer.BorderColor = SaafiColors.BorderColor.CGColor;
             textField.Layer.BorderWidth = 1;
         }
 
@@ -72,7 +72,7 @@ namespace MyTrains.iOS.Views
                 CurrencyTextField.ResignFirstResponder();
             })
             {
-                TintColor = MyTrainsColors.AccentColor
+                TintColor = SaafiColors.AccentColor
             };
             toolbar.SetItems(new[] { done }, false);
             return toolbar;
