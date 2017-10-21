@@ -59,3 +59,4 @@ C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Deb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrains.iOS.csproj.CoreCompileInputs.cache
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrainsiOS.exe
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrainsiOS.pdb
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MyTrains.Core.dll.mdb
