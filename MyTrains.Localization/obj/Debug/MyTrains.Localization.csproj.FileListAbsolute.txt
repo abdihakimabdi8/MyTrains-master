@@ -1,7 +1,6 @@
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\bin\Debug\MyTrains.Localization.dll
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\bin\Debug\MyTrains.Localization.pdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\bin\Debug\nl-BE\MyTrains.Localization.resources.dll
-C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.csprojResolveAssemblyReference.cache
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.Strings.resources
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.Strings.nl-BE.resources
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.Localization\obj\Debug\MyTrains.Localization.csproj.GenerateResource.Cache

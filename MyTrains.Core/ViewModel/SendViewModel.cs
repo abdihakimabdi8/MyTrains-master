@@ -29,6 +29,7 @@ namespace MyTrains.Core.ViewModel
         private Country _selectedCountry;
         private City _selectedCity;
         private Service _selectedService;
+        private DateTime _selectedDate;
 
         private ObservableCollection<Beneficiary> _beneficiaries;
         private ObservableCollection<Country> _countries;
@@ -158,7 +159,15 @@ namespace MyTrains.Core.ViewModel
         public string ServiceName { get; private set; }
 
         Send _send;
-
+        public DateTime SelectedDate
+        {
+            get { return _selectedDate; }
+            set
+            {
+                _selectedDate = value;
+                RaisePropertyChanged(() => SelectedDate);
+            }
+        }
 
         public IMvxCommand SaveSend
         {

@@ -90,7 +90,7 @@
                     </view>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="serviceTextField" destination="90" id="name-outlet-87"/>
+                        <outlet property="recipientTextField" destination="90" id="name-outlet-87"/>
                         <outlet property="cityTextField" destination="81" id="name-outlet-90"/>
                         <outlet property="countryTextField" destination="81" id="name-outlet-81"/>
                         <outlet property="sendButton" destination="93" id="name-outlet-93"/>

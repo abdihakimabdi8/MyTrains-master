@@ -14,9 +14,9 @@ namespace MyTrains.iOS.Views
 	[Register ("SendView")]
 	partial class SendView
 	{
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
-		UIView calendarContainerView { get; set; }
+		//[Outlet]
+		//[GeneratedCode ("iOS Designer", "1.0")]
+		//UIView calendarContainerView { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -41,10 +41,10 @@ namespace MyTrains.iOS.Views
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (calendarContainerView != null) {
-				calendarContainerView.Dispose ();
-				calendarContainerView = null;
-			}
+			//if (calendarContainerView != null) {
+			//	calendarContainerView.Dispose ();
+			//	calendarContainerView = null;
+			//}
 			if (serviceTextField != null) {
                 serviceTextField.Dispose ();
                 serviceTextField = null;
