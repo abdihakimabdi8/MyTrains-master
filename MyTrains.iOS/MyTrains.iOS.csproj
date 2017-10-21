@@ -132,6 +132,7 @@
     <Compile Include="Bootstrap\SqlitePluginBootstrap.cs" />
     <Compile Include="Bootstrap\WebBrowserPluginBootstrap.cs" />
     <Compile Include="Controls\CalendarHelper.cs" />
+    <Compile Include="FileAccesHelper.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="AllRecipientsCell.cs" />
@@ -153,10 +154,6 @@
       <DependentUpon>AllRecipientsView .cs</DependentUpon>
     </Compile>
     <Compile Include="Views\BaseView.cs" />
-    <Compile Include="Views\JourneyDetailView.cs" />
-    <Compile Include="Views\JourneyDetailView.designer.cs">
-      <DependentUpon>JourneyDetailView.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\MainView.cs" />
     <Compile Include="Views\MainView.designer.cs">
       <DependentUpon>MainView.cs</DependentUpon>
@@ -172,10 +169,6 @@
     <Compile Include="Views\SendView.cs" />
     <Compile Include="Views\SendView.designer.cs">
       <DependentUpon>SendView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\SearchResultView.cs" />
-    <Compile Include="Views\SearchResultView.designer.cs">
-      <DependentUpon>SearchResultView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\SettingsView.cs" />
     <Compile Include="Views\SettingsView.designer.cs">

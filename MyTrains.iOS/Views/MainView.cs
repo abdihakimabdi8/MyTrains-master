@@ -42,11 +42,11 @@ namespace MyTrains.iOS.Views
         {
             var viewControllers = new UIViewController[]
             {
-                CreateTab("Send", "ic-send-", ViewModel.SendViewModel),
-                CreateTab("Transactions", "ic-transactions-", ViewModel.AllSendsViewModel),
+                CreateTab("Send", "ic-search-", ViewModel.SendViewModel),
+                CreateTab("Transactions", "ic-saved-", ViewModel.AllSendsViewModel),
 
-                CreateTab("Recipients", "ic-recipients-", ViewModel.AllRecipientsViewModel),
-                CreateTab("Add Recipients", "ic-add-", ViewModel.RecipientViewModel),
+                CreateTab("Recipients", "ic-saved-", ViewModel.AllRecipientsViewModel),
+                CreateTab("Add Recipients", "ic-search-", ViewModel.RecipientViewModel),
 
                 CreateTab("Settings", "ic-settings-", ViewModel.SettingsViewModel)
             };

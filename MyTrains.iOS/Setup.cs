@@ -27,6 +27,10 @@ namespace MyTrains.iOS
 
         protected override IMvxApplication CreateApp()
         {
+            var dbConn = FileAccessHelper.GetLocalFilePath("saafimaster.db3");
+            Mvx.RegisterSingleton(new RecipientRepository(dbConn));
+            Mvx.RegisterSingleton(new TransferRepository(dbConn));
+            Mvx.RegisterSingleton(new SendRepository(dbConn));
             return new App();
         }
 
