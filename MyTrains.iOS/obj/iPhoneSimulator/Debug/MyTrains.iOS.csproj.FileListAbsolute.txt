@@ -32,6 +32,7 @@ C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Deb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MyTrains.Localization.dll
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MyTrains.Core.pdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MyTrains.Core.dll.config
+C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MyTrains.Core.dll.mdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Binding.dll.mdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MvvmCross.Binding.iOS.dll.mdb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MvvmCross.iOS.dll.mdb
@@ -54,9 +55,7 @@ C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Deb
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrains.iOS.csprojResolveAssemblyReference.cache
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrains.iOS.csproj.MyTrainsiOS.exe.config
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrains.iOS.csproj.CoreCompileInputs.cache
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrainsiOS.exe
 C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\obj\iPhoneSimulator\Debug\MyTrainsiOS.pdb
-C:\Users\habdi\Documents\GitHub\SaafiMaster\MyTrains.iOS\bin\iPhoneSimulator\Debug\MyTrains.Core.dll.mdb

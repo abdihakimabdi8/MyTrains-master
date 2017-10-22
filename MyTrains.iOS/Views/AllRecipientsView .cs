@@ -50,13 +50,15 @@ namespace MyTrains.iOS.Views
             //savedJourneyTableView.SeparatorStyle = UITableViewCellSeparatorStyle.SingleLine;
             //savedJourneyTableView.SeparatorColor = UIColor.FromRGB(0, 215, 203);
             allRecipientsTableView.ReloadData();
+            //this.CreateBinding(_allRecipientsTableViewSource).To((AllRecipientsViewModel vm) => vm.AllRecipients).Apply();
+            //allRecipientsTableView.ReloadData();
         }
 
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
 
-            //AllRecipientsViewModel.ReloadDataCommand.Execute();
+            AllRecipientsViewModel.ReloadDataCommand.Execute();
 
             //savedJourneyTableView.DeselectRow(savedJourneyTableView.IndexPathForSelectedRow, true);
         }

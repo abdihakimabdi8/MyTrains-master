@@ -127,6 +127,10 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="RecipientCell.cs" />
+    <Compile Include="RecipientCell.designer.cs">
+      <DependentUpon>RecipientCell.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
     <Compile Include="Bootstrap\MessengerPluginBootstrap.cs" />
     <Compile Include="Bootstrap\SqlitePluginBootstrap.cs" />

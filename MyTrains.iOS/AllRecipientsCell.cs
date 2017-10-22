@@ -7,12 +7,15 @@ using MyTrains.Core.Converters;
 using MyTrains.Core.Model;
 using UIKit;
 using MyTrains.Core.Models;
+using MyTrains.Core.ViewModel;
 
 namespace MyTrains.iOS
 {
 	partial class AllRecipientsCell : MvxTableViewCell
     {
-		public AllRecipientsCell (IntPtr handle) : base (handle)
+        //protected AllRecipientsViewModel AllRecipientViewModel
+        //   => ViewModel as AllRecipientsViewModel;
+        public AllRecipientsCell (IntPtr handle) : base (handle)
 		{
 		}
 
@@ -28,7 +31,7 @@ namespace MyTrains.iOS
             set.Bind(RecipientPhoneNumberLabel)
                 .To(vm => vm.RecipientPhoneNumber);
 
-           
+
 
             set.Apply();
         }

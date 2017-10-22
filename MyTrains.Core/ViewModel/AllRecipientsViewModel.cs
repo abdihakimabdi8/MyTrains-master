@@ -18,7 +18,18 @@ namespace MyTrains.Core.ViewModel
                 return new MvxCommand(() => Close(this));
             }
         }
-
+        public MvxCommand ReloadDataCommand
+        {
+            get
+            {
+                return new MvxCommand(() =>
+                {
+                    Task<List<Recipient>> result = Mvx.Resolve<RecipientRepository>().GetAllRecipients();
+                    result.Wait();
+                    AllRecipients = result.Result;
+                });
+            }
+        }
         // This is another place that could be improved.
         // We are using the async capabilities built in to SQLite-Net,
         // but in this example, we simply wait for the thread to complete.
