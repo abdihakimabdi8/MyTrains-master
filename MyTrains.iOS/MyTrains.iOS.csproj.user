@@ -2,7 +2,7 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
-    <SelectedDevice>iPhone 6s Plus iOS 9.0</SelectedDevice>
+    <SelectedDevice>Simulator</SelectedDevice>
     <DefaultDevice>iPhone 6s Plus iOS 9.0</DefaultDevice>
   </PropertyGroup>
 </Project>

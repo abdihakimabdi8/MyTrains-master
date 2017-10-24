@@ -173,5 +173,10 @@ namespace MyTrains.iOS.Views
                 
             }));
         }
+
+        partial void SendButton_TouchUpInside(UIButton sender)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

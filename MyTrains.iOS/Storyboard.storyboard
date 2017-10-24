@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7">
     <dependencies>
         <deployment identifier="iOS"/>
@@ -33,19 +33,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Recipient" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="87">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Recipient" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="87" misplaced="YES">
                                 <rect key="frame" x="20" y="40" width="560" height="30"/>
                                 <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Country" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="90">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Country" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="90" misplaced="YES">
                                 <rect key="frame" x="20" y="80" width="560" height="30"/>
                                 <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="81">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select City" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="81" misplaced="YES">
                                 <rect key="frame" x="20" y="80" width="560" height="30"/>
                                 <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
@@ -57,11 +57,11 @@
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                          <!--  <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87">
+                            <!--  <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87">
                                 <rect key="frame" x="20" y="120" width="560" height="306"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>-->
-                           <!-- <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Departure time" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="90">
+                            <!-- <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Departure time" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="90">
                                 <rect key="frame" x="20" y="436" width="560" height="30"/>
                                 <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
@@ -131,7 +131,7 @@
                                 <color key="separatorColor" red="0.14117647059999999" green="0.37647058820000001" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                 <view key="tableFooterView" contentMode="scaleToFill" id="xeX-e4-gYc">
-                                    <rect key="frame" x="0.0" y="66" width="600" height="44"/>
+                                    <rect key="frame" x="0.0" y="492" width="600" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </view>
@@ -143,34 +143,34 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="64.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="01-01-2016" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="151">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="01-01-2016" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="151" misplaced="YES">
                                                     <rect key="frame" x="15" y="12" width="88" height="21"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                     <color key="textColor" red="0.023529411760000001" green="0.4549019608" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="London" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="155">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="London" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="155" misplaced="YES">
                                                     <rect key="frame" x="15" y="33" width="51" height="18"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                     <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="18:00" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="159">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="18:00" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="159" misplaced="YES">
                                                     <rect key="frame" x="113" y="12" width="43" height="21"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                     <color key="textColor" red="0.023529411760000001" green="0.4549019608" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIv-W5-NcE">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIv-W5-NcE" misplaced="YES">
                                                     <rect key="frame" x="76" y="33" width="7" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                                     <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Manchester" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="158">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Manchester" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="158" misplaced="YES">
                                                     <rect key="frame" x="93.5" y="33" width="80.5" height="18"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
@@ -218,59 +218,9 @@
             </objects>
             <point key="canvasLocation" x="624" y="-395"/>
         </scene>
-         <!--Recipient View-->
-<!--       <scene sceneID="55">
-
-         <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecipientView">
-            <connections>
-                <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
-                <outlet property="RecipientNameLabel" destination="14" id="name-outlet-14"/>
-                <outlet property="RecipientPhoneNumberLabel" destination="8" id="name-outlet-8"/>
-            </connections>
-        </placeholder>
-        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="2">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Recipient Name" lineBreakMode="tailTruncation" minimumFontSize="10" id="15" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="62" y="125" width="258" height="21"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="jon.doe@gmail.com" borderStyle="roundedRect" minimumFontSize="17" id="14" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="62" y="154" width="258" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Recipient Phone Number" lineBreakMode="tailTruncation" minimumFontSize="10" id="5" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="62" y="207" width="97" height="21"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="8" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="62" y="236" width="258" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                    <rect key="frame" x="55" y="479" width="66" height="30"/>
-                    <state key="normal" title="Save">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-            </subviews>
-        </view>
-    </objects>
-</scene>-->
-<!--        <Recipient View>-->
-       <scene sceneID="55">
-          <objects>
+        <!--        <Recipient View>-->
+        <scene sceneID="55">
+            <objects>
                 <viewController storyboardIdentifier="RecipientView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="56" customClass="RecipientView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="53"/>
@@ -280,20 +230,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-               
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Recipient Name" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="187">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Recipient Name" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="187" fixedFrame="YES">
                                 <rect key="frame" x="20" y="291.5" width="560" height="18"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
                                 <color key="textColor" red="0.023529411760000001" green="0.4549019608" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="188">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="188" fixedFrame="YES">
                                 <rect key="frame" x="20" y="313.5" width="560" height="30"/>
                                 <color key="backgroundColor" red="0.97537691885964917" green="0.98056267737358105" blue="0.98506988115970062" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Recipient Phone Number" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="189">
                                 <rect key="frame" x="20" y="291.5" width="560" height="18"/>
@@ -307,7 +256,7 @@
                                 <color key="backgroundColor" red="0.97537691885964917" green="0.98056267737358105" blue="0.98506988115970062" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.21584601149999999" green="0.2318564967" blue="0.2875976562" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="195">
                                 <rect key="frame" x="20" y="480" width="560" height="45"/>
@@ -387,10 +336,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="58" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1355" y="-389"/>-->
+            <point key="canvasLocation" x="1355" y="-389"/>--&gt;
            </scene>
-
-         <!--AllRecipients View-->
+        <!--AllRecipients View-->
         <scene sceneID="69">
             <objects>
                 <viewController storyboardIdentifier="AllRecipientsView" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="70" customClass="AllRecipientsView" sceneMemberID="viewController">
@@ -554,6 +502,64 @@
             </objects>
             <point key="canvasLocation" x="-120" y="995"/>
         </scene>
+        <!--        New Add Recipient -->
+        <scene sceneID="756">
+            <objects>
+                <viewController id="757" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="754"/>
+                        <viewControllerLayoutGuide type="bottom" id="755"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="758">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipient Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="764" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="47" y="100" width="182" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15" weight="light"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0.29803921568627451" green="0.63921568627450975" blue="0.81568627450980391" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1240" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Enter recipient name here" textAlignment="justified" text=" ">
+                                <rect key="frame" x="47" y="138" width="303" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14" weight="light"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recipient Phone Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" id="1370" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" minimumScaleFactor="10" clipsSubviews="YES">
+                                <rect key="frame" x="47" y="204" width="220" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15" weight="light"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="1497" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" text=" " placeholder=" ">
+                                <rect key="frame" x="47" y="254" width="303" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14" weight="light"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                            </textField>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="759" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-116" y="306"/>
+        </scene>
     </scenes>
     <color key="tintColor" red="0.23137254900000001" green="0.79215686269999996" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+    <resources>
+        <image name="splash" width="188" height="204"/>
+        <image name="ic-home-active" width="22" height="21"/>
+        <image name="ic-home-normal" width="22" height="21"/>
+        <image name="ic-saved-active" width="22" height="21"/>
+        <image name="ic-saved-normal" width="22" height="21"/>
+        <image name="ic-settings-active" width="20" height="20"/>
+        <image name="ic-settings-normal" width="20" height="20"/>
+        <image name="ic-search-active" width="20" height="20"/>
+        <image name="ic-search-normal" width="20" height="20"/>
+        <image name="arrow-down" width="17" height="9"/>
+        <image name="arrow-left" width="9" height="17"/>
+        <image name="arrow-right" width="9" height="17"/>
+        <image name="arrow-up" width="17" height="9"/>
+    </resources>
 </document>
