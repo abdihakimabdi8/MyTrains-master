@@ -51,7 +51,8 @@ namespace MyTrains.Core.ViewModel
                 return new MvxCommand(() => Close(this));
             }
         }
-
+        public MvxCommand CloseCommand
+        { get { return new MvxCommand(() => Close(this)); } }
         public ICommand SaveRecipient
         {
             get
