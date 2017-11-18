@@ -5,6 +5,7 @@ using UIKit;
 
 namespace MyTrains.iOS.Views
 {
+    
     public class BaseView: MvxViewController
     {
         public BaseView(IntPtr handle) : base(handle)

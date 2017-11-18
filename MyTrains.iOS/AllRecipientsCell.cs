@@ -6,7 +6,6 @@ using MvvmCross.Binding.iOS.Views;
 using MyTrains.Core.Converters;
 using MyTrains.Core.Model;
 using UIKit;
-using MyTrains.Core.Models;
 using MyTrains.Core.ViewModel;
 
 namespace MyTrains.iOS

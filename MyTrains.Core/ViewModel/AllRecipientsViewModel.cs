@@ -1,6 +1,6 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
-using MyTrains.Core.Models;
+using MyTrains.Core.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;

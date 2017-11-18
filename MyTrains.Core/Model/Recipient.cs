@@ -1,7 +1,7 @@
 ﻿using SQLite;
 using System;
 
-namespace MyTrains.Core.Models
+namespace MyTrains.Core.Model
 {
     /// <summary>
     /// This class uses attributes that SQLite.Net can recognize

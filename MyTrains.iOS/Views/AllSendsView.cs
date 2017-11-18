@@ -1,7 +1,5 @@
-
 using System;
 using System.Drawing;
-
 using Foundation;
 using MvvmCross.Binding.BindingContext;
 using MyTrains.Core.ViewModel;
@@ -19,7 +17,6 @@ namespace MyTrains.iOS.Views
         public AllSendsView(IntPtr handle) : base(handle)
         {
         }
-
         protected override void CreateBindings()
         {
             base.CreateBindings();
@@ -29,7 +26,6 @@ namespace MyTrains.iOS.Views
 
             set.Apply();
         }
-
         public override void DidReceiveMemoryWarning()
         {
             // Releases the view if it doesn't have a superview.
@@ -37,7 +33,6 @@ namespace MyTrains.iOS.Views
 
             // Release any cached data, images, etc that aren't in use.
         }
-
         #region View lifecycle
 
         public override void ViewDidLoad()
@@ -47,8 +42,6 @@ namespace MyTrains.iOS.Views
             base.ViewDidLoad();
 
             allSendsTableView.Source = _allSendsTableViewSource;
-            //savedJourneyTableView.SeparatorStyle = UITableViewCellSeparatorStyle.SingleLine;
-            //savedJourneyTableView.SeparatorColor = UIColor.FromRGB(0, 215, 203);
             allSendsTableView.ReloadData();
         }
 
@@ -56,9 +49,6 @@ namespace MyTrains.iOS.Views
         {
             base.ViewWillAppear(animated);
 
-            //AllSendsViewModel.ReloadDataCommand.Execute();
-
-            //savedJourneyTableView.DeselectRow(savedJourneyTableView.IndexPathForSelectedRow, true);
         }
 
         public override void ViewDidAppear(bool animated)

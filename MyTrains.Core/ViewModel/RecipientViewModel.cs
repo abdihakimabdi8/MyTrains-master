@@ -1,49 +1,35 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
-using MyTrains.Core.Models;
+using MyTrains.Core.Model;
 using MyTrains.Core.Services;
 using System.Windows.Input;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 namespace MyTrains.Core.ViewModel
 {
-    /// <summary>
-    /// All view models inherit from MvxViewModel in MVVMCross
-    /// </summary>
     public class RecipientViewModel : MvxViewModel
     {
-       // readonly IBillCalculator _calculation;
         Recipient _recipient;
-
+        private string _recipientName;
+        private string _recipientPhoneNumber;
         public string RecipientName
         {
-            get { return _recipient.RecipientName; }
+            get { return _recipientName; }
             set
             {
-                _recipient.RecipientName = value;
+                _recipientName = value;
                 RaisePropertyChanged(() => RecipientName);
             }
         }
-
         public string RecipientPhoneNumber
         {
-            get { return _recipient.RecipientPhoneNumber; }
+            get { return _recipientPhoneNumber; }
             set
             {
-                _recipient.RecipientPhoneNumber = value;
+                _recipientPhoneNumber = value;
                 RaisePropertyChanged(() => RecipientPhoneNumber);
             }
         }
-
-        /// <summary>
-        /// Use constructor injection to supply _calculation with the implementation.
-        /// </summary>
-        /// <param name="calculation"></param>
-        //public RecipientViewModel(IBillCalculator calculation)
-        //{
-        //    _calculation = calculation;
-        //}
-
         public ICommand NavBack
         {
             get
@@ -53,23 +39,22 @@ namespace MyTrains.Core.ViewModel
         }
         public MvxCommand CloseCommand
         { get { return new MvxCommand(() => Close(this)); } }
-        public ICommand SaveRecipient
+        public IMvxCommand SaveRecipient
         {
             get
             {
                 return new MvxCommand(() => {
                     if (_recipient.IsValid())
                     {
-                        // Here we are simply waiting for the thread to complete.
-                        // In a production app, this would be the opportunity to
-                        // provide UI updates while the save thread completes.
+                        _recipient.RecipientName = _recipientName;
+                        _recipient.RecipientPhoneNumber = _recipientPhoneNumber;
                         Mvx.Resolve<RecipientRepository>().CreateRecipient(_recipient).Wait();
                         Close(this);
                     }
                 });
+            
             }
-        }
-
+        }  
         public void Init(Recipient recipient = null)
         {
             _recipient = recipient == null ? new Recipient() : recipient;

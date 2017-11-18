@@ -155,15 +155,6 @@ namespace MyTrains.iOS.Views
 
         protected void UpdateUi()
         {
-            //var calendar = CalendarHelper.GetPreconfiguredInstance(
-            //    new CGRect(0, 0, View.Frame.Width - 32, 273),
-            //    date => SendViewModel.SelectedDate = date);
-
-            //calendarContainerView.AddSubview(calendar);
-            //calendarContainerView.Layer.BorderWidth = 1;
-            //calendarContainerView.Layer.BorderColor = SaafiColors.BorderColor.CGColor;
-            //calendarContainerView.Layer.CornerRadius = 4;
-
             View.AddGestureRecognizer(new UITapGestureRecognizer(() =>
             {
                 recipientTextField.ResignFirstResponder();

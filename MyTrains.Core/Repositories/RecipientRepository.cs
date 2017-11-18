@@ -1,4 +1,4 @@
-﻿using MyTrains.Core.Models;
+﻿using MyTrains.Core.Model;
 using SQLite;
 using System;
 using System.Collections.Generic;

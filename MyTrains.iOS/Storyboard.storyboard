@@ -478,8 +478,8 @@
                     <connections>
                         <outlet property="CreateRecipientButton" destination="195" id="name-outlet-195"/>
                         <outlet property="CloseButton" destination="209" id="name-outlet-209"/>
-                        <outlet property="RecipientNameTextField" destination="192" id="name-outlet-192"/>
-                        <outlet property="RecipientPhoneNumberTextField" destination="186" id="name-outlet-186"/>
+                        <outlet property="recipientNameTextField" destination="192" id="name-outlet-192"/>
+                        <outlet property="recipientPhoneNumberTextField" destination="186" id="name-outlet-186"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="759" userLabel="First Responder" sceneMemberID="firstResponder"/>

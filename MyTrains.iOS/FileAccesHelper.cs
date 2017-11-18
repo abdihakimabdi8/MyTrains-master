@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace MyTrains.iOS
 {
@@ -6,18 +7,15 @@ namespace MyTrains.iOS
     {
         public static string GetLocalFilePath(string filename)
         {
-            // Use the SpecialFolder enum to get the Personal folder on the iOS file system.
-            // Then get or create the Library folder within this personal folder.
-            // Storing the database here is a best practice.
             var docFolder = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
-            var libFolder = System.IO.Path.Combine(docFolder, "..", "Library");
+            var libFolder = Path.Combine(docFolder, "..", "saafimaster.db3");
 
-            if (!System.IO.Directory.Exists(libFolder))
+            if (!Directory.Exists(libFolder))
             {
-                System.IO.Directory.CreateDirectory(libFolder);
+                Directory.CreateDirectory(libFolder);
             }
 
-            return System.IO.Path.Combine(libFolder, filename);
+            return Path.Combine(libFolder, filename);
         }
     }
 }

@@ -3,11 +3,11 @@ using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views;
 using MvvmCross.iOS.Views.Presenters;
 using MvvmCross.Platform;
-using MyTrains.Core;
 using MyTrains.Core.Contracts.Services;
 using MyTrains.iOS.Services;
+using MyTrains.Core.Repositories;
 using UIKit;
-
+using MyTrains.Core;
 namespace MyTrains.iOS
 {
     public class Setup: MvxIosSetup
@@ -31,7 +31,7 @@ namespace MyTrains.iOS
             Mvx.RegisterSingleton(new RecipientRepository(dbConn));
             Mvx.RegisterSingleton(new TransferRepository(dbConn));
             Mvx.RegisterSingleton(new SendRepository(dbConn));
-            return new App();
+            return new Core.App();
         }
 
         protected override void InitializeIoC()

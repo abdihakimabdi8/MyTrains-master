@@ -1,6 +1,6 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
-using MyTrains.Core.Models;
+using MyTrains.Core.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -10,7 +10,6 @@ using MvvmCross.Plugins.Messenger;
 using MyTrains.Core.Contracts.Services;
 using MyTrains.Core.Contracts.ViewModel;
 using MyTrains.Core.Extensions;
-using MyTrains.Core.Model;
 using MyTrains.Core.Model.App;
 
 namespace MyTrains.Core.ViewModel
@@ -76,7 +75,6 @@ namespace MyTrains.Core.ViewModel
                 }
             }
         }
-
         public City SelectedCity
         {
             get { return _selectedCity; }
@@ -153,12 +151,6 @@ namespace MyTrains.Core.ViewModel
             }
         }
 
-        public object RecipientName { get; private set; }
-        public string CountryName { get; private set; }
-        public string CityName { get; private set; }
-        public string ServiceName { get; private set; }
-
-        Send _send;
         public DateTime SelectedDate
         {
             get { return _selectedDate; }
@@ -168,6 +160,13 @@ namespace MyTrains.Core.ViewModel
                 RaisePropertyChanged(() => SelectedDate);
             }
         }
+        public object RecipientName { get; private set; }
+        public string CountryName { get; private set; }
+        public string CityName { get; private set; }
+        public string ServiceName { get; private set; }
+
+        Send _send;
+       
 
         public IMvxCommand SaveSend
         {
@@ -189,28 +188,6 @@ namespace MyTrains.Core.ViewModel
                 });
             }
         }
-        //public MvxCommand SendCommand
-        //{
-        //    get
-        //    {
-        //        return new MvxCommand(async () =>
-        //        {
-        //            Mvx.Resolve<SendRepository>().CreateSend(_send).Wait();
-        //            Close(this);
-        //            (_userDataService.GetActiveUser().UserId, SelectedRemittance.RemittanceId, SelectedRemittance.BeneficiaryId, SelectedRemittance.CountryId, SelectedRemittance.CityId, SelectedRemittance.ServiceId);
-
-        //            //Hardcoded text, better with resx translations
-        //            //await
-        //            //    _dialogService.ShowAlertAsync("This journey is now in your Saved Journeys!", "My Trains says...", "OK");
-
-        //            await
-        //                _dialogService.ShowAlertAsync
-        //                (TextSource.GetText("AddedToSavedRemittancesMessage"),
-        //                 TextSource.GetText("AddedToSavedRemittancesTitle"),
-        //                 TextSource.GetText("AddedToSavedRemittancesButton"));
-        //        });
-        //    }
-        //}
         public IMvxCommand SendCommand
         {
             get
@@ -263,17 +240,6 @@ namespace MyTrains.Core.ViewModel
                 await LoadCountries();
                 await LoadServices();
 
-                //SelectedRecipient = AllRecipients[0];
-                //SelectedCountry = Countries[0];
-                //SelectedCity = Cities[0];
-                //SelectedService = Services[0];
-                //PossibleTimes = new ObservableCollection<string>();
-
-                //RecipientName = SelectedRecipient.RecipientName;
-                //CountryName = SelectedCountry.CountryName;
-                //CityName = SelectedCity.CityName;
-                //ServiceName = SelectedService.ServiceName;
-
             }
             else
             {
@@ -304,10 +270,6 @@ namespace MyTrains.Core.ViewModel
             }
         }
 
-
-        // This is another place that could be improved.
-        // We are using the async capabilities built in to SQLite-Net,
-        // but in this example, we simply wait for the thread to complete.
         public void Init()
         {
            
