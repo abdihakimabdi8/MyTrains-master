@@ -17,7 +17,7 @@ public abstract class CalendarCellDecorator
 	}
 
 
-	public CalendarCellDecorator () throws java.lang.Throwable
+	public CalendarCellDecorator ()
 	{
 		super ();
 		if (getClass () == CalendarCellDecorator.class)

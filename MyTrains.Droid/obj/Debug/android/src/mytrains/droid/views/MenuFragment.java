@@ -18,7 +18,7 @@ public class MenuFragment
 	}
 
 
-	public MenuFragment () throws java.lang.Throwable
+	public MenuFragment ()
 	{
 		super ();
 		if (getClass () == MenuFragment.class)

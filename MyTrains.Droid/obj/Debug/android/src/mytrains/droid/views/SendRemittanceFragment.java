@@ -17,7 +17,7 @@ public class SendRemittanceFragment
 	}
 
 
-	public SendRemittanceFragment () throws java.lang.Throwable
+	public SendRemittanceFragment ()
 	{
 		super ();
 		if (getClass () == SendRemittanceFragment.class)

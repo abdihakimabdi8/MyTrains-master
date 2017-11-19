@@ -19,7 +19,7 @@ public class SearchResultsFragment
 	}
 
 
-	public SearchResultsFragment () throws java.lang.Throwable
+	public SearchResultsFragment ()
 	{
 		super ();
 		if (getClass () == SearchResultsFragment.class)

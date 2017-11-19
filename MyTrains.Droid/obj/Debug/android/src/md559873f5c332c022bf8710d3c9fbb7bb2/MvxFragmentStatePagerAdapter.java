@@ -19,7 +19,7 @@ public class MvxFragmentStatePagerAdapter
 	}
 
 
-	public MvxFragmentStatePagerAdapter (android.support.v4.app.FragmentManager p0) throws java.lang.Throwable
+	public MvxFragmentStatePagerAdapter (android.support.v4.app.FragmentManager p0)
 	{
 		super (p0);
 		if (getClass () == MvxFragmentStatePagerAdapter.class)

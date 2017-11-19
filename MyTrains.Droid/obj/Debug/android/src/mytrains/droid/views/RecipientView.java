@@ -17,7 +17,7 @@ public class RecipientView
 	}
 
 
-	public RecipientView () throws java.lang.Throwable
+	public RecipientView ()
 	{
 		super ();
 		if (getClass () == RecipientView.class)

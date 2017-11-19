@@ -15,7 +15,7 @@ public class MvxAppCompatRadioGroup
 	}
 
 
-	public MvxAppCompatRadioGroup (android.content.Context p0) throws java.lang.Throwable
+	public MvxAppCompatRadioGroup (android.content.Context p0)
 	{
 		super (p0);
 		if (getClass () == MvxAppCompatRadioGroup.class)
@@ -23,7 +23,7 @@ public class MvxAppCompatRadioGroup
 	}
 
 
-	public MvxAppCompatRadioGroup (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
+	public MvxAppCompatRadioGroup (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
 		if (getClass () == MvxAppCompatRadioGroup.class)

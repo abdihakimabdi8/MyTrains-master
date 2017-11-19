@@ -17,7 +17,7 @@ public class AllTransfersView
 	}
 
 
-	public AllTransfersView () throws java.lang.Throwable
+	public AllTransfersView ()
 	{
 		super ();
 		if (getClass () == AllTransfersView.class)

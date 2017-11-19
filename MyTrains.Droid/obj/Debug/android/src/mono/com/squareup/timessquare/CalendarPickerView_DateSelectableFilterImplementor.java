@@ -17,7 +17,7 @@ public class CalendarPickerView_DateSelectableFilterImplementor
 	}
 
 
-	public CalendarPickerView_DateSelectableFilterImplementor () throws java.lang.Throwable
+	public CalendarPickerView_DateSelectableFilterImplementor ()
 	{
 		super ();
 		if (getClass () == CalendarPickerView_DateSelectableFilterImplementor.class)

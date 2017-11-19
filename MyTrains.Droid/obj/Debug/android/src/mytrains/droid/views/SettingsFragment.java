@@ -17,7 +17,7 @@ public class SettingsFragment
 	}
 
 
-	public SettingsFragment () throws java.lang.Throwable
+	public SettingsFragment ()
 	{
 		super ();
 		if (getClass () == SettingsFragment.class)

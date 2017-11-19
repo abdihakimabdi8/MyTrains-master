@@ -26,7 +26,7 @@ public abstract class MvxEventSourceAppCompatActivity
 	}
 
 
-	public MvxEventSourceAppCompatActivity () throws java.lang.Throwable
+	public MvxEventSourceAppCompatActivity ()
 	{
 		super ();
 		if (getClass () == MvxEventSourceAppCompatActivity.class)

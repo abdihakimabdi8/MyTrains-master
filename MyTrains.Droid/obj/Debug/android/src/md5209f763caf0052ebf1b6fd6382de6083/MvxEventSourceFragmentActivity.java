@@ -26,7 +26,7 @@ public abstract class MvxEventSourceFragmentActivity
 	}
 
 
-	public MvxEventSourceFragmentActivity () throws java.lang.Throwable
+	public MvxEventSourceFragmentActivity ()
 	{
 		super ();
 		if (getClass () == MvxEventSourceFragmentActivity.class)

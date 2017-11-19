@@ -20,7 +20,7 @@ public class MvxCachingFragmentCompatActivity
 	}
 
 
-	public MvxCachingFragmentCompatActivity () throws java.lang.Throwable
+	public MvxCachingFragmentCompatActivity ()
 	{
 		super ();
 		if (getClass () == MvxCachingFragmentCompatActivity.class)

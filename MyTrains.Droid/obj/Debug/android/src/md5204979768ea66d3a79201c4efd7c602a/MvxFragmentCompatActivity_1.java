@@ -15,7 +15,7 @@ public abstract class MvxFragmentCompatActivity_1
 	}
 
 
-	public MvxFragmentCompatActivity_1 () throws java.lang.Throwable
+	public MvxFragmentCompatActivity_1 ()
 	{
 		super ();
 		if (getClass () == MvxFragmentCompatActivity_1.class)

@@ -17,7 +17,7 @@ public abstract class CalendarPickerView_OnInvalidDateSelectedListener
 	}
 
 
-	public CalendarPickerView_OnInvalidDateSelectedListener () throws java.lang.Throwable
+	public CalendarPickerView_OnInvalidDateSelectedListener ()
 	{
 		super ();
 		if (getClass () == CalendarPickerView_OnInvalidDateSelectedListener.class)

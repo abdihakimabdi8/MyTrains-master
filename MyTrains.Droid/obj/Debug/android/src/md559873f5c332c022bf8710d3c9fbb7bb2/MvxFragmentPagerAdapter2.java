@@ -23,14 +23,14 @@ public abstract class MvxFragmentPagerAdapter2
 	}
 
 
-	public MvxFragmentPagerAdapter2 () throws java.lang.Throwable
+	public MvxFragmentPagerAdapter2 ()
 	{
 		super ();
 		if (getClass () == MvxFragmentPagerAdapter2.class)
 			mono.android.TypeManager.Activate ("MvvmCross.Droid.Support.V4.MvxFragmentPagerAdapter2, MvvmCross.Droid.Support.V4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public MvxFragmentPagerAdapter2 (android.support.v4.app.FragmentManager p0) throws java.lang.Throwable
+	public MvxFragmentPagerAdapter2 (android.support.v4.app.FragmentManager p0)
 	{
 		super ();
 		if (getClass () == MvxFragmentPagerAdapter2.class)

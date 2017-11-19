@@ -17,7 +17,7 @@ public abstract class CalendarPickerView_CellClickInterceptor
 	}
 
 
-	public CalendarPickerView_CellClickInterceptor () throws java.lang.Throwable
+	public CalendarPickerView_CellClickInterceptor ()
 	{
 		super ();
 		if (getClass () == CalendarPickerView_CellClickInterceptor.class)

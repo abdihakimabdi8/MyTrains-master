@@ -18,7 +18,7 @@ public class SendView
 	}
 
 
-	public SendView () throws java.lang.Throwable
+	public SendView ()
 	{
 		super ();
 		if (getClass () == SendView.class)

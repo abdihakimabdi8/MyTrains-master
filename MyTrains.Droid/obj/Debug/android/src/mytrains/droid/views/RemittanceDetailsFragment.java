@@ -17,7 +17,7 @@ public class RemittanceDetailsFragment
 	}
 
 
-	public RemittanceDetailsFragment () throws java.lang.Throwable
+	public RemittanceDetailsFragment ()
 	{
 		super ();
 		if (getClass () == RemittanceDetailsFragment.class)

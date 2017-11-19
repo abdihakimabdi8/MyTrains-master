@@ -17,7 +17,7 @@ public class CalendarPickerView_CellClickInterceptorImplementor
 	}
 
 
-	public CalendarPickerView_CellClickInterceptorImplementor () throws java.lang.Throwable
+	public CalendarPickerView_CellClickInterceptorImplementor ()
 	{
 		super ();
 		if (getClass () == CalendarPickerView_CellClickInterceptorImplementor.class)

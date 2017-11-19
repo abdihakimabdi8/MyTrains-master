@@ -19,7 +19,7 @@ public class MvxCachingFragmentActivity
 	}
 
 
-	public MvxCachingFragmentActivity () throws java.lang.Throwable
+	public MvxCachingFragmentActivity ()
 	{
 		super ();
 		if (getClass () == MvxCachingFragmentActivity.class)

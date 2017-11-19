@@ -18,7 +18,7 @@ public class CalendarPickerView_OnDateSelectedListenerImplementor
 	}
 
 
-	public CalendarPickerView_OnDateSelectedListenerImplementor () throws java.lang.Throwable
+	public CalendarPickerView_OnDateSelectedListenerImplementor ()
 	{
 		super ();
 		if (getClass () == CalendarPickerView_OnDateSelectedListenerImplementor.class)

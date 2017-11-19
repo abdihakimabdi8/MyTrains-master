@@ -17,7 +17,7 @@ public class SavedBeneficiariesFragment
 	}
 
 
-	public SavedBeneficiariesFragment () throws java.lang.Throwable
+	public SavedBeneficiariesFragment ()
 	{
 		super ();
 		if (getClass () == SavedBeneficiariesFragment.class)

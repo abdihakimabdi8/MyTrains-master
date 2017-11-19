@@ -17,7 +17,7 @@ public class TransferView
 	}
 
 
-	public TransferView () throws java.lang.Throwable
+	public TransferView ()
 	{
 		super ();
 		if (getClass () == TransferView.class)

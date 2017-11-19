@@ -15,7 +15,7 @@ public class SplashScreen
 	}
 
 
-	public SplashScreen () throws java.lang.Throwable
+	public SplashScreen ()
 	{
 		super ();
 		if (getClass () == SplashScreen.class)

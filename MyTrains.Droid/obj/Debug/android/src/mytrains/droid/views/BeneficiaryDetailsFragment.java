@@ -17,7 +17,7 @@ public class BeneficiaryDetailsFragment
 	}
 
 
-	public BeneficiaryDetailsFragment () throws java.lang.Throwable
+	public BeneficiaryDetailsFragment ()
 	{
 		super ();
 		if (getClass () == BeneficiaryDetailsFragment.class)

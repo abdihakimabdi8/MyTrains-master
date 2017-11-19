@@ -17,14 +17,14 @@ public class MvxTabsFragmentActivity_TabFactory
 	}
 
 
-	public MvxTabsFragmentActivity_TabFactory () throws java.lang.Throwable
+	public MvxTabsFragmentActivity_TabFactory ()
 	{
 		super ();
 		if (getClass () == MvxTabsFragmentActivity_TabFactory.class)
 			mono.android.TypeManager.Activate ("MvvmCross.Droid.Support.V7.Fragging.MvxTabsFragmentActivity+TabFactory, MvvmCross.Droid.Support.V7.Fragging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public MvxTabsFragmentActivity_TabFactory (android.content.Context p0) throws java.lang.Throwable
+	public MvxTabsFragmentActivity_TabFactory (android.content.Context p0)
 	{
 		super ();
 		if (getClass () == MvxTabsFragmentActivity_TabFactory.class)

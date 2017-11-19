@@ -17,7 +17,7 @@ public class AllSendsView
 	}
 
 
-	public AllSendsView () throws java.lang.Throwable
+	public AllSendsView ()
 	{
 		super ();
 		if (getClass () == AllSendsView.class)

@@ -17,7 +17,7 @@ public class PlatformView
 	}
 
 
-	public PlatformView () throws java.lang.Throwable
+	public PlatformView ()
 	{
 		super ();
 		if (getClass () == PlatformView.class)

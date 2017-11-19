@@ -15,7 +15,7 @@ public class MvxSwipeRefreshLayout
 	}
 
 
-	public MvxSwipeRefreshLayout (android.content.Context p0) throws java.lang.Throwable
+	public MvxSwipeRefreshLayout (android.content.Context p0)
 	{
 		super (p0);
 		if (getClass () == MvxSwipeRefreshLayout.class)
@@ -23,7 +23,7 @@ public class MvxSwipeRefreshLayout
 	}
 
 
-	public MvxSwipeRefreshLayout (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
+	public MvxSwipeRefreshLayout (android.content.Context p0, android.util.AttributeSet p1)
 	{
 		super (p0, p1);
 		if (getClass () == MvxSwipeRefreshLayout.class)
